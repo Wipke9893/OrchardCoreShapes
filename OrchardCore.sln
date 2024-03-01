@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34525.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrchardCore.Web", "OrchardCore.Web\OrchardCore.Web.csproj", "{742E0EB6-B841-4D14-B361-03029DEC7684}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{A50F2617-24AE-4502-BED1-FEC51C0F3303}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrchardCore.Module.Training", "Modules\OrchardCore.Module.Training\OrchardCore.Module.Training.csproj", "{174B9256-D3F8-4886-9FE9-7F117ACD4E46}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{50A355B9-EDFD-4F1C-89AB-78789D35A0FE}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrchardCore.GreenHouse", "Modules\OrchardCore.Anamials\OrchardCore.GreenHouse.csproj", "{FB54F127-2681-4A14-83C0-09E38246E7D9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{742E0EB6-B841-4D14-B361-03029DEC7684}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{742E0EB6-B841-4D14-B361-03029DEC7684}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{742E0EB6-B841-4D14-B361-03029DEC7684}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{742E0EB6-B841-4D14-B361-03029DEC7684}.Release|Any CPU.Build.0 = Release|Any CPU
+		{174B9256-D3F8-4886-9FE9-7F117ACD4E46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{174B9256-D3F8-4886-9FE9-7F117ACD4E46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{174B9256-D3F8-4886-9FE9-7F117ACD4E46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{174B9256-D3F8-4886-9FE9-7F117ACD4E46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB54F127-2681-4A14-83C0-09E38246E7D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB54F127-2681-4A14-83C0-09E38246E7D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB54F127-2681-4A14-83C0-09E38246E7D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB54F127-2681-4A14-83C0-09E38246E7D9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{174B9256-D3F8-4886-9FE9-7F117ACD4E46} = {A50F2617-24AE-4502-BED1-FEC51C0F3303}
+		{FB54F127-2681-4A14-83C0-09E38246E7D9} = {A50F2617-24AE-4502-BED1-FEC51C0F3303}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {006A4886-DDAE-40D9-9B0B-C412E4D1B3F4}
+	EndGlobalSection
+EndGlobal

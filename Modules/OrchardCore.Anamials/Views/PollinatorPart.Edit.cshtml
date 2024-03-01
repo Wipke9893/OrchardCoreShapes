@@ -1,0 +1,8 @@
+@model OrchardCore.GreenHouse.ViewModels.PollinatorPartViewModel
+
+<fieldset class="form-group" asp-validation-class-for="Pollinator">
+    <label asp-for="Pollinator">@T["Pollinator"]</label>
+    <select asp-for="Pollinator" class="form-select" asp-items="Model.PollinatorTypeOptions"></select>
+    <span class="hint">@T["Select the types of pollinator the works best."]</span>
+    <span asp-validation-for="Pollinator"></span>
+</fieldset>

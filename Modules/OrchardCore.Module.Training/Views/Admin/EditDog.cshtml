@@ -1,0 +1,42 @@
+@model OrchardCore.Module.Training.ViewModels.DogPartViewModel
+@using OrchardCore.Module.Training.ViewModels
+
+<form asp-controller="Admin" asp-action="EditDog" method="post">
+    <fieldset class="form-group">
+        <label asp-for="Name">@T["Name"]</label>
+        <input asp-for="Name" class="form-control" />
+        <span class="hint">@T["Enter the dog's name"]</span>
+    </fieldset>
+
+    <fieldset class="form-group">
+        <label asp-for="Color">@T["Color"]</label>
+        <input asp-for="Color" class="form-control" />
+        <span class="hint">@T["Enter the dog's color"]</span>
+    </fieldset>
+
+    <fieldset class="form-group">
+        <label asp-for="Breed">@T["Breed"]</label>
+        <input asp-for="Breed" class="form-control" />
+        <span class="hint">@T["Enter the dog's breed"]</span>
+    </fieldset>
+
+    <fieldset class="form-group">
+        <label asp-for="Size">@T["Size"]</label>
+        <input asp-for="Size" class="form-control" />
+        <span class="hint">@T["Enter the dog's size"]</span>
+    </fieldset>
+
+    <fieldset class="form-group">
+        <label asp-for="Age">@T["Age"]</label>
+        <input asp-for="Age" class="form-control" type="number" />
+        <span class="hint">@T["Enter the dog's age"]</span>
+    </fieldset>
+
+    <fieldset class="form-group">
+        <label asp-for="Stripe">@T["Stripe"]</label>
+        <input asp-for="Stripe" type="checkbox" />
+        <span class="hint">@T["Does the dog have a stripe?"]</span>
+    </fieldset>
+
+    <button type="submit" class="btn btn-primary">Save</button>
+</form>

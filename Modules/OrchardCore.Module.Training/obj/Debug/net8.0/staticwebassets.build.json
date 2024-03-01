@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "IsX1PSZvOI8qU1yzhTKUqbsm1iji3cYyIbaht5tIQLo=",
+  "Source": "OrchardCore.Module.Training",
+  "BasePath": "_content/OrchardCore.Module.Training",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

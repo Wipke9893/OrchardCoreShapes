@@ -1,0 +1,10 @@
+@using OrchardCore.GreenHouse.ViewModels
+
+@model TypeFlowerFilterViewModel
+
+<div class="mb-3">
+    <label asp-for="Type">Filter by Flower Type:</label>
+    <select asp-for="Type" class="form-control" asp-items="Model.Types">
+        <option value="">All Flower Types</option>
+    </select>
+</div>

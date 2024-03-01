@@ -1,0 +1,7 @@
+@using Lombiq.TrainingDemo.ViewModels
+
+@model PersonPartViewModel
+
+@T["Person's name: {0}", Model.Name]
+@T["Birth Date: {0}", Model.BirthDateUtc?.ToShortDateString()]
+@T["Handedness: {0}", Model.Handedness]

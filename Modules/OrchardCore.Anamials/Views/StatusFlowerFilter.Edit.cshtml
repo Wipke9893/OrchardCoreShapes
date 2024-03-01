@@ -1,0 +1,8 @@
+@using OrchardCore.GreenHouse.ViewModels
+
+@model StatusFlowerFilterViewModel
+
+<div class="mb-3">
+    <label asp-for="Status">Status</label>
+    <select asp-for="Status" class="form-control" asp-items="Model.Statuses"></select>
+</div>

@@ -1,0 +1,21 @@
+<div class="card mb-3">
+
+    @if (Model.Header is not null)
+    {
+        <div class="card-header">
+            @await DisplayAsync(Model.Header)
+        </div>
+    }
+
+    <div class="card-body">
+        @await DisplayAsync(Model.Body)
+    </div>
+
+    @if (Model.Footer is not null)
+    {
+        <div class="card-footer">
+            @await DisplayAsync(Model.Footer)
+        </div>
+    }
+
+</div>

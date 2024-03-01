@@ -1,0 +1,40 @@
+@model DogPartViewModel
+@using OrchardCore.Module.Training.ViewModels
+
+
+<fieldset class="form-group" asp-validation-class-for="Name">
+    <label asp-for="Name">@T["Name"]<span asp-validation-for="Name"></span></label>
+    <input asp-for="Name" class="form-control" />
+    <span class="hint">@T["Enter the dog's name"]</span>
+</fieldset>
+
+<fieldset class="form-group" asp-validation-class-for="Color">
+    <label asp-for="Color">@T["Color (C#)"]</label>
+    <select asp-for="Color" class="form-select" asp-items="Model.Colors"></select>
+    <span class="hint">@T["Enter the dog's color"]</span>
+    <span asp-validation-for="Color"></span>
+</fieldset>
+
+<fieldset class="form-group" asp-validation-class-for="Breed">
+    <label asp-for="Breed">@T["Breed"]<span asp-validation-for="Breed"></span></label>
+    <input asp-for="Breed" class="form-control" />
+    <span class="hint">@T["Enter the dog's breed"]</span>
+</fieldset>
+
+<fieldset class="form-group" asp-validation-class-for="Size">
+    <label asp-for="Size">@T["Size"]<span asp-validation-for="Size"></span></label>
+    <input asp-for="Size" class="form-control" />
+    <span class="hint">@T["Enter the dog's size"]</span>
+</fieldset>
+
+<fieldset class="form-group" asp-validation-class-for="Age">
+    <label asp-for="Age">@T["Age"]<span asp-validation-for="Age"></span></label>
+    <input asp-for="Age" class="form-control" type="number" min="0" max="30" />
+    <span class="hint">@T["Enter the dog's age"]</span>
+</fieldset>
+
+<fieldset class="form-group">
+    <label asp-for="Stripe">@T["Stripe"]</label>
+    <input asp-for="Stripe" type="checkbox" />
+    <span class="hint">@T["Does the dog have a stripe?"]</span>
+</fieldset>

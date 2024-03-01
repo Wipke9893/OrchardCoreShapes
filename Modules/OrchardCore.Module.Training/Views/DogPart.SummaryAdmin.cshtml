@@ -1,0 +1,25 @@
+﻿@using OrchardCore.Module.Training.ViewModels
+@model DogPartViewModel
+
+
+
+@T["Age: {0}", Model.Age]
+
+
+@if (!string.IsNullOrWhiteSpace(Model.HealthStatus))
+{
+    <div class="alert alert-warning" role="alert">
+        @T["Health Status:"] @Model.HealthStatus
+    </div>
+}
+
+@*
+ The  DogPart.SummaryAdmin.cshtml  file is a Razor view that displays a summary of the DogPart content item in the admin dashboard.
+ The  DogPartViewModel  class is used to pass the data to the view.
+ The  @T  method is used to localize the strings.
+ The  @if  statement is used to display the health status only if it is not empty.
+ The  alert alert-warning  class is used to display the health status in a warning box.
+ The  role="alert"  attribute is used to indicate that the warning box is an alert.
+ The  @model  directive is used to specify the model type for the view.
+ The  @using  directive is used to import the namespace of the  DogPartViewModel  class.
+ The  @if  statement is used to display the health status only if it is not empty *@

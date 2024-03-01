@@ -1,0 +1,83 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = OrchardCore.Module.Training
+build_property.RootNamespace = OrchardCore.Module.Training
+build_property.ProjectDir = C:\Users\wipke\workspace\OrchardCoreShapes\Modules\OrchardCore.Module.Training\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\wipke\workspace\OrchardCoreShapes\Modules\OrchardCore.Module.Training
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/wipke/workspace/OrchardCoreShapes/Modules/OrchardCore.Module.Training/Views/Admin/EditDog.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRWRpdERvZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wipke/workspace/OrchardCoreShapes/Modules/OrchardCore.Module.Training/Views/AnimalPart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5pbWFsUGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wipke/workspace/OrchardCoreShapes/Modules/OrchardCore.Module.Training/Views/AnimalPart.Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5pbWFsUGFydC5FZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wipke/workspace/OrchardCoreShapes/Modules/OrchardCore.Module.Training/Views/AnimalPart.Summary.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5pbWFsUGFydC5TdW1tYXJ5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wipke/workspace/OrchardCoreShapes/Modules/OrchardCore.Module.Training/Views/AnimalPart.SummaryAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5pbWFsUGFydC5TdW1tYXJ5QWRtaW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wipke/workspace/OrchardCoreShapes/Modules/OrchardCore.Module.Training/Views/DogPart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9nUGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wipke/workspace/OrchardCoreShapes/Modules/OrchardCore.Module.Training/Views/DogPart.Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9nUGFydC5FZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wipke/workspace/OrchardCoreShapes/Modules/OrchardCore.Module.Training/Views/DogPart.SummaryAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9nUGFydC5TdW1tYXJ5QWRtaW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wipke/workspace/OrchardCoreShapes/Modules/OrchardCore.Module.Training/Views/Kennel/AllDogs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2VubmVsXEFsbERvZ3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wipke/workspace/OrchardCoreShapes/Modules/OrchardCore.Module.Training/Views/PersonList/OlderThan30.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uTGlzdFxPbGRlclRoYW4zMC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wipke/workspace/OrchardCoreShapes/Modules/OrchardCore.Module.Training/Views/PersonPart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uUGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wipke/workspace/OrchardCoreShapes/Modules/OrchardCore.Module.Training/Views/PersonPart.Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uUGFydC5FZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wipke/workspace/OrchardCoreShapes/Modules/OrchardCore.Module.Training/Views/PersonPart.Summary.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uUGFydC5TdW1tYXJ5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wipke/workspace/OrchardCoreShapes/Modules/OrchardCore.Module.Training/Views/PersonPart.SummaryAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uUGFydC5TdW1tYXJ5QWRtaW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wipke/workspace/OrchardCoreShapes/Modules/OrchardCore.Module.Training/Views/Zoo/AllAnimals.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWm9vXEFsbEFuaW1hbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wipke/workspace/OrchardCoreShapes/Modules/OrchardCore.Module.Training/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 

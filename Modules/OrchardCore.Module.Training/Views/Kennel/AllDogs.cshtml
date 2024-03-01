@@ -1,0 +1,120 @@
+@model OrchardCore.Module.Training.ViewModels.DogsListViewModel
+@using Microsoft.AspNetCore.Mvc.Rendering
+@inject IAuthorizationService AuthorizationService
+@using OrchardCore.Module.Training.Permissions
+@using Microsoft.AspNetCore.Authorization
+
+<h1>All Dogs</h1>
+<!-- Color Filter Dropdown -->
+<form method="get" action="@Url.Action("AllDogs", "Kennel")">
+    <div class="form-group">
+        <label for="selectedColor">Filter by Color:</label>
+        <select id="selectedColor" name="colorFilter" class="form-control" onchange="this.form.submit()">
+            <option value="">All Colors</option>
+            @foreach (var colorOption in Model.ColorOptions)
+            {
+                <option value="@colorOption.Value" selected="@(Model.SelectedColor == colorOption.Value ? "selected" : null)">@colorOption.Text</option>
+            }
+        </select>
+    </div>
+</form>
+<!-- Dogs Table -->
+<table class="table table-hover">
+    <thead class="thead-dark">
+        <tr>
+            <th scope="col">Details</th>
+            <th scope="col">Temperament</th>
+            <th scope="col">Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var dog in Model.Dogs)
+        {
+            <tr>
+                <td>@await DisplayAsync(dog.Shape.Content)</td>
+                <td>
+                    @if (dog.Shape.Temperament is not null)
+                    {
+                        @await DisplayAsync(dog.Shape.Temperament)
+                    }
+                </td>
+                <td>
+                    <form method="post" asp-action="DeleteDog" asp-controller="Kennel" asp-route-contentItemId="@dog.ContentItemId">
+                        <input type="hidden" name="__RequestVerificationToken" value="@ViewData["__RequestVerificationToken"]" />
+                        <button type="submit" class="btn btn-danger" onclick="return confirm('Are you sure you want to delete this dog?');">Delete</button>
+                    </form>
+
+                    @if (dog.CanEdit)
+                    {
+                        <a href="@Url.Action("EditDog", "Admin", new { contentItemId = dog.ContentItemId })" class="btn btn-primary">Edit</a>
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+
+
+@* @model IEnumerable<OrchardCore.Module.Training.ViewModels.DogPartViewModel>
+@using Microsoft.AspNetCore.Mvc.Rendering
+@inject IAuthorizationService AuthorizationService
+@using OrchardCore.Module.Training.Permissions
+@using Microsoft.AspNetCore.Authorization
+
+<h1>All Dogs</h1>
+<!-- Color Filter Dropdown -->
+<form method="get" action="@Url.Action("AllDogs", "Kennel")">
+    <div class="form-group">
+        <label for="colorFilter">Filter by Color:</label>
+        <select id="colorFilter" name="colorFilter" class="form-control" onchange="this.form.submit()">
+            <option value="">All Colors</option>
+            @if (ViewBag.Colors is not null)
+            {
+                foreach (var color in ViewBag.Colors as List<string>)
+                {
+                    <option value="@color" selected="@((string)ViewBag.ColorFilter == color ? "selected" : null)">@color</option>
+                }
+            }
+        </select>
+    </div>
+</form>
+<!-- Dogs Table -->
+<table class="table table-hover">
+    <thead class="thead-dark">
+        <tr>
+            <th scope="col">Details</th>
+            <th scope="col">Temperament</th>
+            <th scope="col">Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var dog in Model)
+        {
+            <tr>
+                <td>@await DisplayAsync(dog.Shape.Content)</td>
+                <td>
+                    @if (dog.Shape.Temperment is not null)
+                    {
+                        @await DisplayAsync(dog.Shape.Temperament)
+                    }
+                </td>
+                <td>
+                    <form method="post" asp-action="DeleteDog" asp-controller="Kennel" asp-route-contentItemId="@dog.ContentItemId">
+                        <input type="hidden" name="__RequestVerificationToken" value="@ViewData["__RequestVerificationToken"]" />
+                        <button type="submit" class="btn btn-danger" onclick="return confirm('Are you sure you want to delete this dog?');">Delete</button>
+                    </form>
+
+                    @if (dog.CanEdit)
+                    {
+                        <a href="@Url.Action("EditDog", "Admin", new { contentItemId = dog.ContentItemId })" class="btn btn-primary">Edit</a>
+                    }
+
+
+
+                </td>
+            </tr>
+        }
+    </tbody>
+</table> *@

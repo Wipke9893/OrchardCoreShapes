@@ -1,0 +1,31 @@
+@model OrchardCore.GreenHouse.ViewModels.GreenHouseViewModel
+
+<h1>Greenhouse Overview</h1>
+
+<h2>Flowers</h2>
+@if (Model.Flowers.Any())
+{
+    foreach (var flower in Model.Flowers)
+    {
+        <p>@flower.CommonName</p>
+        <p>@flower.FertilizerType</p>
+    }
+}
+else
+{
+    <p>No flowers available.</p>
+}
+
+<h2>Vegetables</h2>
+@if (Model.Vegetables.Any())
+{
+    foreach (var vegetable in Model.Vegetables)
+    {
+        <p>@vegetable.CommonName</p>
+        <p>@vegetable.FertilizerType</p>
+    }
+}
+else
+{
+    <p>No vegetables available.</p>
+}

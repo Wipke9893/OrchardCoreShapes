@@ -1,0 +1,16 @@
+﻿@model OrchardCore.Module.Training.ViewModels.DogPartViewModel
+@using OrchardCore.Module.Training.ViewModels
+
+<h2>Dog Details</h2>
+
+<div>@T["Name: {0}", Model.Name]</div>
+<div>@T["Age: {0}", Model.Age]</div>
+<div>@T["Color: {0}", Model.Color]</div>
+<div>@T["Breed: {0}", Model.Breed]</div>
+<div>@T["Size: {0}", Model.Size]</div>
+<div>@T["Stripe: {0}", Model.Stripe]</div>
+@if (!string.IsNullOrWhiteSpace(Model.HealthStatus))
+{
+    <div>@T["Health Status:"] @Model.HealthStatus</div>
+}
+

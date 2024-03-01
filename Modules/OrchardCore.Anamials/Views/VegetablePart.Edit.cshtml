@@ -1,0 +1,97 @@
+@model VegetablePartViewModel
+@using OrchardCore.GreenHouse.ViewModels
+
+<fieldset class="form-group" asp-validation-class-for="ScientificName">
+    <label asp-for="ScientificName">@T["Scientific Name"]<span asp-validation-for="ScientificName"></span></label>
+    <input asp-for="ScientificName" class="form-control" />
+    <span class="hint">@T["ScientificName of the Plant"]</span>
+</fieldset>
+
+
+<fieldset class="form-group" asp-validation-class-for="CommonName">
+    <label asp-for="CommonName">@T["Common Name"]<span asp-validation-for="CommonName"></span></label>
+    <input asp-for="CommonName" class="form-control" />
+    <span class="hint">@T["Common Name of the Plant"]</span>
+</fieldset>
+
+<fieldset class="form-group" asp-validation-class-for="SunlightType">
+    <label asp-for="SunlightType">@T["SunlightTypes"]</label>
+    <select asp-for="SunlightType" class="form-select" asp-items="Model.SunlightTypes"></select>
+    <span class="hint">@T["SunlightType"]</span>
+    <span asp-validation-for="SunlightType"></span>
+</fieldset>
+
+<fieldset class="form-group" asp-validation-class-for="FruitType">
+    <label asp-for="FruitType">@T["FruitType"]<span asp-validation-for="FruitType"></span></label>
+    <input asp-for="FruitType" class="form-control" />
+    <span class="hint">@T["FruitType"]</span>
+</fieldset>
+
+<fieldset class="form-group" asp-validation-class-for="LeafType">
+    <label asp-for="LeafType">@T["LeafType"]<span asp-validation-for="LeafType"></span></label>
+    <input asp-for="LeafType" class="form-control" />
+    <span class="hint">@T["LeafType"]</span>
+</fieldset>
+
+<fieldset class="form-group" asp-validation-class-for="StemType">
+    <label asp-for="StemType">@T["StemType"]<span asp-validation-for="StemType"></span></label>
+    <input asp-for="StemType" class="form-control" />
+    <span class="hint">@T["StemType"]</span>
+</fieldset>
+
+<fieldset class="form-group" asp-validation-class-for="RootType">
+    <label asp-for="RootType">@T["RootType"]<span asp-validation-for="RootType"></span></label>
+    <input asp-for="RootType" class="form-control" />
+    <span class="hint">@T["RootType"]</span>
+</fieldset>
+
+<fieldset class="form-group" asp-validation-class-for="SoilType">
+    <label asp-for="SoilType">@T["SoilType"]<span asp-validation-for="SoilType"></span></label>
+    <input asp-for="SoilType" class="form-control" />
+    <span class="hint">@T["SoilType"]</span>
+</fieldset>
+
+<fieldset class="form-group" asp-validation-class-for="WaterType">
+    <label asp-for="WaterType">@T["WaterType"]<span asp-validation-for="WaterType"></span></label>
+    <input asp-for="WaterType" class="form-control" />
+    <span class="hint">@T["WaterType"]</span>
+</fieldset>
+
+<fieldset class="form-group" asp-validation-class-for="HumidityType">
+    <label asp-for="HumidityType">@T["HumidityType"]<span asp-validation-for="HumidityType"></span></label>
+    <input asp-for="HumidityType" class="form-control" />
+    <span class="hint">@T["HumidityType"]</span>
+</fieldset>
+
+
+<fieldset class="form-group" asp-validation-class-for="TemperatureType">
+    <label asp-for="TemperatureType">@T["TemperatureType"]</label>
+    <select asp-for="TemperatureType" class="form-select" asp-items="Model.TemperatureTypes"></select>
+    <span class="hint">@T["TemperatureType"]</span>
+    <span asp-validation-for="TemperatureType"></span>
+</fieldset>
+
+
+<fieldset class="form-group" asp-validation-class-for="FertilizerType">
+    <label asp-for="FertilizerType">@T["Fertilizer Type"]</label>
+    <input asp-for="FertilizerType" class="form-control" />
+    <span asp-validation-for="FertilizerType" class="text-danger"></span>
+</fieldset>
+
+<fieldset class="form-group" asp-validation-class-for="PesticideType">
+    <label asp-for="PesticideType">@T["PesticideType"]<span asp-validation-for="PesticideType"></span></label>
+    <input asp-for="PesticideType" class="form-control" />
+    <span class="hint">@T["PesticideType"]</span>
+</fieldset>
+
+<fieldset class="form-group" asp-validation-class-for="DiseaseType">
+    <label asp-for="DiseaseType">@T["DiseaseType"]<span asp-validation-for="DiseaseType"></span></label>
+    <input asp-for="DiseaseType" class="form-control" />
+    <span class="hint">@T["DiseaseType"]</span>
+</fieldset>
+
+<fieldset class="form-group" asp-validation-class-for="PestType">
+    <label asp-for="PestType">@T["PestType"]<span asp-validation-for="PestType"></span></label>
+    <input asp-for="PestType" class="form-control" />
+    <span class="hint">@T["PestType"]</span>
+</fieldset>

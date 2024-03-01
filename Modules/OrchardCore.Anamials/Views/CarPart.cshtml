@@ -1,0 +1,8 @@
+@model OrchardCore.GreenHouse.ViewModels.CarPartViewModel
+
+@if (!string.IsNullOrEmpty(Model.CarType))
+{
+    <div class="Text-color red">
+        <strong>My Car is a <strong> @Model.CarType
+    </div>
+}

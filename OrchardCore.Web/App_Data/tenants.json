@@ -1,0 +1,13 @@
+{
+  "Default": {
+    "VersionId": "4n0np2g7c799pza5tzmfedqhmn",
+    "TenantId": "4zg0avmwyj73f24hdcf8hn14wc",
+    "State": "Running"
+  },
+  "blog1": {
+    "VersionId": "4xgbfef7ch99a7q4qsxpmcq0wd",
+    "TenantId": "454z9529ft76s54wv6c01242wq",
+    "RequestUrlPrefix": "blog1",
+    "State": "Running"
+  }
+}

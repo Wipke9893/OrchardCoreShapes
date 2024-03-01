@@ -1,0 +1,17 @@
+﻿@using OrchardCore.Module.Training.ViewModels
+@model AnimalPartViewModel
+
+<!-- Existing form fields for editing -->
+<fieldset class="form-group" asp-validation-class-for="Species">
+    <label asp-for="Species">@T["Species"] <span asp-validation-for="Species"></span></label>
+    <input asp-for="Species" class="form-control" />
+    <span class="hint">@T["Enter the species of the animal"]</span>
+</fieldset>
+
+<fieldset class="form-group" asp-validation-class-for="Habitat">
+    <label asp-for="Habitat">@T["Habitat"] <span asp-validation-for="Habitat"></span></label>
+    <input asp-for="Habitat" class="form-control" />
+    <span class="hint">@T["Enter the habitat of the animal"]</span>
+</fieldset>
+
+

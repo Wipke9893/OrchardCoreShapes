@@ -1,0 +1,17 @@
+@using OrchardCore.ContentManagement
+@using OrchardCore.GreenHouse.Models
+@{
+    ContentItem contentItem = Model.ContentItem;
+
+    var flowerPart = contentItem.As<FlowerPart>();
+}
+
+<tr>
+    <td>
+        @contentItem.DisplayText
+    </td>
+
+    <td>
+        @flowerPart.ScientificName
+    </td>
+</tr>

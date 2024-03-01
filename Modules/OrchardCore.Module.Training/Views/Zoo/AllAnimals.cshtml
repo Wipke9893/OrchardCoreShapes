@@ -1,0 +1,28 @@
+﻿@model IEnumerable<OrchardCore.Module.Training.ViewModels.AnimalPartViewModel>
+
+<h1>All Animals</h1>
+
+<table>
+    <thead>
+        <tr>
+            <th>Shape</th>
+            <th>Species</th>
+            <th>Habitat</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var animal in Model)
+        {
+            <tr>
+                <td>@await DisplayAsync(animal.Shape)</td>
+                <td>
+                    <form method="post" asp-action="DeleteAnimal" asp-controller="Zoo" asp-route-contentItemId="@animal.ContentItemId">
+                        <input type="submit" value="Delete" class="btn btn-danger" />
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+

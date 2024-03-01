@@ -1,0 +1,9 @@
+@model OrchardCore.GreenHouse.ViewModels.PollinatorPartViewModel
+
+
+@if (!string.IsNullOrEmpty(Model.Pollinator))
+{
+    <div class="pollinator-info">
+        <strong>Pollinator:</strong> @Model.Pollinator
+    </div>
+}

@@ -1,0 +1,6 @@
+@OrchardCore.GreenHouse_HostAddress = http://localhost:5087
+
+GET {{OrchardCore.GreenHouse_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

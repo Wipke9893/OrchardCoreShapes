@@ -1,0 +1,127 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = OrchardCore.GreenHouse
+build_property.RootNamespace = OrchardCore.GreenHouse
+build_property.ProjectDir = C:\Users\wipke\workspace\OrchardCoreShapes\Modules\OrchardCore.Anamials\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\wipke\workspace\OrchardCoreShapes\Modules\OrchardCore.Anamials
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/wipke/workspace/OrchardCoreShapes/Modules/OrchardCore.Anamials/Views/CarPart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyUGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wipke/workspace/OrchardCoreShapes/Modules/OrchardCore.Anamials/Views/CarPart.Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyUGFydC5FZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wipke/workspace/OrchardCoreShapes/Modules/OrchardCore.Anamials/Views/Content-Flower.Summary.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGVudC1GbG93ZXIuU3VtbWFyeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wipke/workspace/OrchardCoreShapes/Modules/OrchardCore.Anamials/Views/EmployeePart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVQYXJ0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wipke/workspace/OrchardCoreShapes/Modules/OrchardCore.Anamials/Views/EmployeePart.Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVQYXJ0LkVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wipke/workspace/OrchardCoreShapes/Modules/OrchardCore.Anamials/Views/EmployeePart.Summary.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVQYXJ0LlN1bW1hcnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wipke/workspace/OrchardCoreShapes/Modules/OrchardCore.Anamials/Views/Employee/FilteredEmployees.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcRmlsdGVyZWRFbXBsb3llZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wipke/workspace/OrchardCoreShapes/Modules/OrchardCore.Anamials/Views/FlowerFilter.Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmxvd2VyRmlsdGVyLkVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wipke/workspace/OrchardCoreShapes/Modules/OrchardCore.Anamials/Views/FlowerPart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmxvd2VyUGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wipke/workspace/OrchardCoreShapes/Modules/OrchardCore.Anamials/Views/FlowerPart.Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmxvd2VyUGFydC5FZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wipke/workspace/OrchardCoreShapes/Modules/OrchardCore.Anamials/Views/FlowerPart.Summary.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmxvd2VyUGFydC5TdW1tYXJ5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wipke/workspace/OrchardCoreShapes/Modules/OrchardCore.Anamials/Views/FlowersShape.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmxvd2Vyc1NoYXBlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wipke/workspace/OrchardCoreShapes/Modules/OrchardCore.Anamials/Views/Flowers/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmxvd2Vyc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wipke/workspace/OrchardCoreShapes/Modules/OrchardCore.Anamials/Views/Flower/FlowersForever.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmxvd2VyXEZsb3dlcnNGb3JldmVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wipke/workspace/OrchardCoreShapes/Modules/OrchardCore.Anamials/Views/GreenHouse/DisplayAllPlants.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3JlZW5Ib3VzZVxEaXNwbGF5QWxsUGxhbnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wipke/workspace/OrchardCoreShapes/Modules/OrchardCore.Anamials/Views/PollinatorPart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9sbGluYXRvclBhcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wipke/workspace/OrchardCoreShapes/Modules/OrchardCore.Anamials/Views/PollinatorPart.Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9sbGluYXRvclBhcnQuRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wipke/workspace/OrchardCoreShapes/Modules/OrchardCore.Anamials/Views/PredefinedColorPart.Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJlZGVmaW5lZENvbG9yUGFydC5FZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wipke/workspace/OrchardCoreShapes/Modules/OrchardCore.Anamials/Views/StatusFlowerFilter.Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhdHVzRmxvd2VyRmlsdGVyLkVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wipke/workspace/OrchardCoreShapes/Modules/OrchardCore.Anamials/Views/StatusFlowerFilterFooter.Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhdHVzRmxvd2VyRmlsdGVyRm9vdGVyLkVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wipke/workspace/OrchardCoreShapes/Modules/OrchardCore.Anamials/Views/StatusFlowerFilterHeader.Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhdHVzRmxvd2VyRmlsdGVySGVhZGVyLkVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wipke/workspace/OrchardCoreShapes/Modules/OrchardCore.Anamials/Views/TypeFlowerFilter.Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHlwZUZsb3dlckZpbHRlci5FZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wipke/workspace/OrchardCoreShapes/Modules/OrchardCore.Anamials/Views/VegetablePart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVnZXRhYmxlUGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wipke/workspace/OrchardCoreShapes/Modules/OrchardCore.Anamials/Views/VegetablePart.Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVnZXRhYmxlUGFydC5FZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wipke/workspace/OrchardCoreShapes/Modules/OrchardCore.Anamials/Views/VegetablePart.Summary.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVnZXRhYmxlUGFydC5TdW1tYXJ5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wipke/workspace/OrchardCoreShapes/Modules/OrchardCore.Anamials/Views/Vegetable/Vegetables.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVnZXRhYmxlXFZlZ2V0YWJsZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/wipke/workspace/OrchardCoreShapes/Modules/OrchardCore.Anamials/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 

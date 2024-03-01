@@ -1,0 +1,7 @@
+{
+  "DogAgeFilter": [
+    {
+      "place": "ContentsAdminFilters:after"
+    }
+  ]
+}

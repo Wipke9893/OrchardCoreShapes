@@ -1,0 +1,41 @@
+@model OrchardCore.GreenHouse.ViewModels.FlowerListViewModel
+@using Microsoft.AspNetCore.Mvc.Rendering
+
+
+<h1>All Flowers</h1>
+<form method="get" asp-action="FlowersForever" asp-controller="Flower">
+    <div class="form-group">
+        <label for="selectedFlower">Filter by Flower Type:</label>
+        <select id="selectedFlower" name="flowerFilter" class="form-control" onchange="this.form.submit()">
+            <option value="">All Flower Types</option>
+            @foreach (var flowerOption in Model.FlowerOptions)
+            {
+                <option value="@flowerOption.Value" selected="@(Model.SelectedFlower == flowerOption.Value ? "selected" : null)">@flowerOption.Text</option>
+            }
+        </select>
+    </div>
+</form>
+<!-- Flowers Table -->
+<table class="table table-hover">
+    <thead class="thead-dark">
+        <tr>
+            <th scope="col">Scientific Name</th>
+            <th scope="col">Common Name</th>
+            <th scope="col">Flower Type</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var flower in Model.Flowers)
+        {
+            <tr>
+                <td>@await DisplayAsync(flower.Shape.Content)</td>
+                <td>
+                    @if (flower.Shape.GrowType is not null)
+                    {
+                        @await DisplayAsync(flower.Shape.GrowType)
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

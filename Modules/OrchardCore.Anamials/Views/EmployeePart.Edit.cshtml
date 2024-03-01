@@ -1,0 +1,58 @@
+@model EmployeePartViewModel
+@using OrchardCore.GreenHouse.ViewModels
+
+<fieldset class="form-group" asp-validation-class-for="FirstName">
+    <label asp-for="FirstName">@T["Employee Name"]<span asp-validation-for="FirstName"></span></label>
+    <input asp-for="FirstName" class="form-control" />
+    <span class="hint">@T["Employee Name"]</span>
+</fieldset>
+
+<fieldset class="form-group" asp-validation-class-for="LastName">
+    <label asp-for="LastName">@T["Employee LastName"]<span asp-validation-for="LastName"></span></label>
+    <input asp-for="LastName" class="form-control" />
+    <span class="hint">@T["Employee LastName"]</span>
+</fieldset>
+
+<fieldset class="form-group" asp-validation-class-for="Email">
+    <label asp-for="Email">@T["Employee Email"]<span asp-validation-for="Email"></span></label>
+    <input asp-for="Email" class="form-control" />
+    <span class="hint">@T["Employee Email"]</span>
+</fieldset>
+
+<fieldset class="form-group" asp-validation-class-for="Phone">
+    <label asp-for="Phone">@T["Employee Phone"]<span asp-validation-for="Phone"></span></label>
+    <input asp-for="Phone" class="form-control" />
+    <span class="hint">@T["Employee Phone"]</span>
+</fieldset>
+
+<fieldset class="form-group" asp-validation-class-for="Address">
+    <label asp-for="Address">@T["Employee Address"]<span asp-validation-for="Address"></span></label>
+    <input asp-for="Address" class="form-control" />
+    <span class="hint">@T["Employee Address"]</span>
+</fieldset>
+
+<fieldset class="form-group" asp-validation-class-for="City">
+    <label asp-for="City">@T["Employee City"]<span asp-validation-for="City"></span></label>
+    <input asp-for="City" class="form-control" />
+    <span class="hint">@T["Employee City"]</span>
+</fieldset>
+
+<fieldset class="form-group" asp-validation-class-for="State">
+    <label asp-for="State">@T["Employee State"]<span asp-validation-for="State"></span></label>
+    <input asp-for="State" class="form-control" />
+    <span class="hint">@T["Employee State"]</span>
+</fieldset>
+
+<fieldset class="form-group" asp-validation-class-for="Zip">
+    <label asp-for="Zip">@T["Employee Zip"]<span asp-validation-for="Zip"></span></label>
+    <input asp-for="Zip" class="form-control" />
+    <span class="hint">@T["Employee Zip"]</span>
+</fieldset>
+
+<fieldset class="form-group" asp-validation-class-for="Country">
+    <label asp-for="Country">@T["Country"]</label>
+    <select asp-for="Country" class="form-select" asp-items="Model.Countries"></select>
+    <span class="hint">@T["Country"]</span>
+    <span asp-validation-for="Country"></span>
+</fieldset>
+

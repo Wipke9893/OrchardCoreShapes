@@ -1,0 +1,55 @@
+@model OrchardCore.GreenHouse.ViewModels.VegetableListViewModel
+@using Microsoft.AspNetCore.Mvc.Rendering
+
+
+<h1>All Vegetables</h1>
+<!-- Fruit Type Filter Dropdown -->
+<form method="get" asp-action="Vegetables" asp-controller="Vegetable">
+    <div class="form-group">
+        <label for="selectedVegetable">Filter by Vegetable Type:</label>
+        <select id="selectedVegetable" name="fruitFilter" class="form-control" onchange="this.form.submit()">
+            <option value="">All Vegetable Types</option>
+            @foreach (var fruitTypeOptions in Model.FruitTypeOptions)
+            {
+                <option value="@fruitTypeOptions.Value" selected="@(Model.SelectedVegetable == fruitTypeOptions.Value ? "selected" : null)">@fruitTypeOptions.Text</option>
+            }
+            @* asp-items="Model.FruitTypeOptions" Missing Functionality wont show all only Filtered *@
+        </select>
+    </div>
+</form>
+<!-- Vegetables Table -->
+<table class="table table-hover">
+    <thead class="thead-dark">
+        <tr class="d-flex justify-content-between">
+            <th scope="col">Scientific Name</th>
+            <th scope="col">GrowType</th>
+            <th scope="col">FertilizerTeaType</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var vegetable in Model.Vegetables)
+        {
+            <tr>
+                <td class="bg-success">@await DisplayAsync(vegetable.Shape.Content)</td>
+                <td>
+                    @if (vegetable.Shape.GrowType is not null)
+                    {
+                        @await DisplayAsync(vegetable.Shape.GrowType)
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@*<td>
+            <form method="post" asp-action="DeleteVegetable" asp-controller="Vegetable" asp-route-contentItemId="@vegetable.ContentItemId">
+            <input type="hidden" name="__RequestVerificationToken" value="@ViewData["__RequestVerificationToken"]" />
+            <button type="submit" class="btn btn-danger" onclick="return confirm('Are you sure you want to delete this vegetable?');">Delete</button>
+            </form>
+
+            @if (AuthorizationService.AuthorizeAsync(User, VegetablePagePermissions.EditVegetable, vegetable).Result)
+            {
+            <a href="@Url.Action("EditVegetable", "Vegetable", new { contentItemId = vegetable.ContentItemId })" class="btn btn-primary">Edit</a>
+            }
+            </td> *@

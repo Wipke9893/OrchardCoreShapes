@@ -1,0 +1,8 @@
+@model OrchardCore.GreenHouse.ViewModels.CarPartViewModel
+
+<fieldset class="form-group" asp-validation-class-for="CarType">
+    <label asp-for="CarType">@T["Pick Your Ride"]</label>
+    <select asp-for="CarType" class="form-select" asp-items="Model.CarOptions"></select>
+    <span class="hint">@T["Select the types of car part the works best."]</span>
+    <span asp-validation-for="CarType"></span>
+</fieldset>

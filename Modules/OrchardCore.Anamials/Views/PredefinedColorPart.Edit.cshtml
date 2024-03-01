@@ -1,0 +1,8 @@
+@model OrchardCore.GreenHouse.ViewModels.ColorPartViewModel
+
+<fieldset class="form-group" asp-validation-class-for="Color">
+    <label asp-for="Color">@T["Color - C#"]</label>
+    <select asp-for="Color" class="form-select" asp-items="Model.ColorOptions"></select>
+    <span class="hint">@T["select a color..."]</span>
+    <span asp-validation-for="Color"></span>
+</fieldset>
