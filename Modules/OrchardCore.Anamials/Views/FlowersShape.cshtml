@@ -13,6 +13,17 @@
                 <button type="submit" class="btn btn-primary">@T["Filters"]</button>
             </div>
         </form>
+        <strong>FlowerSHape.cshtml Mikes Controller</strong>
+    </div>
+}
+
+@if (Model.Filters is not null)
+{
+    <div class="mb-3">
+        <form method="post" asp-action="FlowersForever" asp-controller="Flower">
+            @await DisplayAsync(Model.Filters)
+        </form>
+        <strong>FlowerSHape.cshtml My controller</strong>
     </div>
 }
 
@@ -25,5 +36,6 @@
                 @await DisplayAsync(contentItemShape)
             }
         </tbody>
+        <strong>FlowerSHape.cshtml</strong>
     </table>
 }

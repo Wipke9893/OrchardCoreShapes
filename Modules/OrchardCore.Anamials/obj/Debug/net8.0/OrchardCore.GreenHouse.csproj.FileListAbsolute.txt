@@ -42,3 +42,4 @@ C:\Users\wipke\workspace\OrchardCoreShapes\Modules\OrchardCore.Anamials\obj\Debu
 C:\Users\wipke\workspace\OrchardCoreShapes\Modules\OrchardCore.Anamials\obj\Debug\net8.0\refint\OrchardCore.GreenHouse.dll
 C:\Users\wipke\workspace\OrchardCoreShapes\Modules\OrchardCore.Anamials\obj\Debug\net8.0\OrchardCore.GreenHouse.pdb
 C:\Users\wipke\workspace\OrchardCoreShapes\Modules\OrchardCore.Anamials\obj\Debug\net8.0\ref\OrchardCore.GreenHouse.dll
+C:\Users\wipke\workspace\OrchardCoreShapes\Modules\OrchardCore.Anamials\obj\Debug\net8.0\OrchardCore.GreenHouse.sourcelink.json

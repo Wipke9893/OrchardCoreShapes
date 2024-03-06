@@ -8,6 +8,8 @@ using OrchardCore.GreenHouse.ViewModels;
 using OrchardCore.GreenHouse.Models;
 using OrchardCore.GreenHouse.Indexes;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using OrchardCore.ContentManagement.Records;
+using OrchardCore.DisplayManagement;
 
 
 namespace OrchardCore.GreenHouse.Controllers;
@@ -20,10 +22,15 @@ public class FlowerController : Controller
     private readonly IUpdateModelAccessor _updateModelAccessor;
     private readonly IContentDefinitionManager _contentDefinitionManager;
 
+    private readonly IDisplayManager<FlowerFilter> _flowerFilterDisplayManager;
+
     public FlowerController(
        ISession session,
        IContentManager contentManager,
        IContentItemDisplayManager contentItemDisplayManager,
+
+       IDisplayManager<FlowerFilter> flowerDisplayManager,
+
        IUpdateModelAccessor updateModelAccessor,
        IContentDefinitionManager contentDefinitionManager)
     {
@@ -32,53 +39,52 @@ public class FlowerController : Controller
         _contentItemDisplayManager = contentItemDisplayManager;
         _updateModelAccessor = updateModelAccessor;
         _contentDefinitionManager = contentDefinitionManager;
+
+        _flowerFilterDisplayManager = flowerDisplayManager;
+
     }
 
-    [HttpGet]
+    // if you use [HTTPGET] it will never use it as a Post even if it has the power to do so.
     [Route("FlowersForever")]
-    public async Task<IActionResult> FlowersForever(string flowerFilter = null)
+    public async Task<IActionResult> FlowersForever()
     {
-        var flowerTypes = await FlowerTypes();
-        var flowerTypeOptions = flowerTypes.Select(c => new SelectListItem { Value = c, Text = c }).ToList();
-
-        var flowerQuery = _session.Query<ContentItem, FlowerPartIndex>();
-        if (!string.IsNullOrEmpty(flowerFilter))
+        // Initialize a new instance of the FlowerFilter class to hold any filter conditions.
+        var filters = new FlowerFilter();
+        // Create a new instance of the FlowersShapeViewModel.
+        // The Filters property of the model is populated using the _flowerFilterDisplayManager.
+        // This involves creating an editor shape for the filters which can be displayed in the view.
+        var model = new FlowersShapeViewModel()
         {
-            flowerQuery = flowerQuery.Where(x => x.FlowerType == flowerFilter);
+            Filters = await _flowerFilterDisplayManager.UpdateEditorAsync(filters, _updateModelAccessor.ModelUpdater, false, string.Empty, string.Empty),
+        };
+        // Start a new query for ContentItem objects.
+        var query = _session.Query<ContentItem>();
+        // If there are any conditions in the filters (i.e., user has selected some filters),
+        // modify the query to include these conditions.
+        if (filters.Conditions.Count > 0)
+        {
+            query = query.All(filters.Conditions.ToArray());
         }
+        // Further refine the query to only include ContentItems of ContentType "Flower".
+        query = query.With<ContentItemIndex>(x => x.ContentType == "Flower");
 
-        var flowers = await flowerQuery.ListAsync();
-        var flowerViewModels = new List<FlowerPartViewModel>();
-        foreach (var flower in flowers)
+        // Execute the query and get the list of content items.
+        var contentItems = await query.ListAsync();
+
+        // If there are any content items returned from the query:
+        if (contentItems.Any())
         {
-            if (flower.TryGet<FlowerPart>(out var flowerPart))
+            // Loop through each content item.
+            foreach (var contentItem in contentItems)
             {
-                var viewModel = new FlowerPartViewModel
-                {
-                    Shape = await _contentItemDisplayManager.BuildDisplayAsync(flower, _updateModelAccessor.ModelUpdater, "Summary"),
-                    ContentItemId = flower.ContentItemId,
-                };
-                flowerViewModels.Add(viewModel);
+                // For each content item, build its display shape using the _contentItemDisplayManager.
+                // This involves creating a shape that can be rendered in the view, using the "Summary" display type.
+                // Add this shape to the model's ContentItems list, which will be used in the view to render each content item.
+                model.ContentItems.Add(await _contentItemDisplayManager.BuildDisplayAsync(contentItem, _updateModelAccessor.ModelUpdater, "Summary"));
             }
         }
-
-        var listViewModel = new FlowerListViewModel
-        {
-            Flowers = flowerViewModels,
-            SelectedFlower = flowerFilter,
-            FlowerOptions = flowerTypeOptions
-        };
-
-        return View(listViewModel);
-    }
-
-    [HttpGet]
-    public async Task<List<string>> FlowerTypes()
-    {
-        var flowerTypes = await _session.Query<ContentItem, FlowerPartIndex>().ListAsync();
-        var flowerTypeList = flowerTypes.Select(x => x.As<FlowerPart>().FlowerType)
-            .Distinct()
-            .ToList();
-        return flowerTypeList;
+        // Return the constructed model to the view.
+        // The view will use this model to render the UI, including any filters and content items.
+        return View(model);
     }
 }

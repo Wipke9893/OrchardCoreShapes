@@ -1,37 +1,5 @@
-@model OrchardCore.GreenHouse.ViewModels.EmployeeListViewModel
-@using Microsoft.AspNetCore.Mvc.Rendering
+@await DisplayAsync(Model)
 
-<h1>All Employees</h1>
-<form method="get" asp-action="FilteredEmployees" asp-controller="Employee">
-    <div class="form-group">
-        <label for="selectedEmployee">Filter by Employee Country:</label>
-        <select id="selectedEmployee" name="employeeFilter" class="form-control" onchange="this.form.submit()">
-            <option value="">All Employee Types</option>
-            @foreach (var employeeTypeOptions in Model.CountryOptions)
-            {
-                <option value="@employeeTypeOptions.Value" selected="@(Model.SelectedEmployee == employeeTypeOptions.Value ? "selected" : null)">@employeeTypeOptions.Text</option>
-            }
-        </select>
-    </div>
-</form>
-<table class="table table-hover">
-    <thead class="thead-dark">
-        <tr>
-            <th scope="col">Employee Information</th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var employee in Model.Employees)
-        {
-            <tr>
-                <td class="bg-success">@await DisplayAsync(employee.Shape.Content)</td>
-                <td>
-                    @if (employee.Shape.Country is not null)
-                    {
-                        @await DisplayAsync(employee.Shape.Country)
-                    }
-                </td>
-            </tr>
-        }
-    </tbody>
-</table>
+<strong>Vegetables.cshtml</strong>
+
+<strong> Vegetables needs this and is injected in the footer area? </strong>

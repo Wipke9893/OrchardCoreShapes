@@ -1,0 +1,31 @@
+@using OrchardCore.GreenHouse.ViewModels
+
+@model VegetableShapeViewModel
+
+<h1>All Vegetable</h1>
+
+@if (Model.Filters is not null)
+{
+    <div class="mb-3">
+        <form method="post" asp-action="Vegetables" asp-controller="Vegetable">
+            @await DisplayAsync(Model.Filters)
+            <div class="mb-3">
+                <button type="submit" class="btn btn-primary">@T["Filters"]</button>
+            </div>
+        </form>
+        <strong>VegetablesSape.cshtml</strong>
+    </div>
+}
+
+@if (Model.ContentItems is not null)
+{
+    <table class="table table-striped">
+        <tbody>
+            @foreach (var contentItemShape in Model.ContentItems)
+            {
+                @await DisplayAsync(contentItemShape)
+            }
+        </tbody>
+        <strong>VegetablesSape.cshtml</strong>
+    </table>
+}

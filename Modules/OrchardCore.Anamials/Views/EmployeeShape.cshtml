@@ -1,0 +1,40 @@
+@using OrchardCore.GreenHouse.ViewModels
+
+@model EmployeeShapeViewModel
+
+<h1>All Employees</h1>
+
+@if (Model.Filters is not null)
+{
+    <div class="mb-3">
+        <form method="post" asp-action="FilteredEmployees" asp-controller="Employee">
+            @await DisplayAsync(Model.Filters)
+            <div class="mb-3">
+                <button type="submit" class="btn btn-primary">@T["Filters"]</button>
+            </div>
+        </form>
+        <strong>FilteredEmployeesShape.cshtml</strong>
+    </div>
+}
+
+@if (Model.ContentItems is not null)
+{
+    <table class="table table-striped">
+        <tbody>
+            @foreach (var contentItemShape in Model.ContentItems)
+            {
+                @await DisplayAsync(contentItemShape)
+            }
+        </tbody>
+        <strong>FilteredEmployeesShape.cshtml</strong>
+    </table>
+}
+
+<style>
+    .table {
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 1rem;
+        background-color: blue;
+    }
+</style>

@@ -842,3 +842,4 @@ C:\Users\wipke\workspace\OrchardCoreShapes\OrchardCore.Web\obj\Debug\net8.0\refi
 C:\Users\wipke\workspace\OrchardCoreShapes\OrchardCore.Web\obj\Debug\net8.0\OrchardCore.Web.pdb
 C:\Users\wipke\workspace\OrchardCoreShapes\OrchardCore.Web\obj\Debug\net8.0\OrchardCore.Web.genruntimeconfig.cache
 C:\Users\wipke\workspace\OrchardCoreShapes\OrchardCore.Web\obj\Debug\net8.0\ref\OrchardCore.Web.dll
+C:\Users\wipke\workspace\OrchardCoreShapes\OrchardCore.Web\obj\Debug\net8.0\OrchardCore.Web.sourcelink.json

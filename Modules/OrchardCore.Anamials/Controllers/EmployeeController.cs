@@ -1,9 +1,10 @@
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Rendering;
 using OrchardCore.ContentManagement;
 using OrchardCore.ContentManagement.Display;
+using OrchardCore.ContentManagement.Metadata;
+using OrchardCore.ContentManagement.Records;
+using OrchardCore.DisplayManagement;
 using OrchardCore.DisplayManagement.ModelBinding;
-using OrchardCore.GreenHouse.Indexes;
 using OrchardCore.GreenHouse.Models;
 using OrchardCore.GreenHouse.ViewModels;
 using YesSql;
@@ -12,73 +13,60 @@ namespace OrchardCore.GreenHouse.Controllers;
 public class EmployeeController : Controller
 {
     private readonly ISession _session;
+    private readonly IContentManager _contentManager;
     private readonly IContentItemDisplayManager _contentItemDisplayManager;
     private readonly IUpdateModelAccessor _updateModelAccessor;
+    private readonly IContentDefinitionManager _contentDefinitionManager;
+
+    private readonly IDisplayManager<EmployeeFilter> _employeeFilterDisplayManager;
 
     public EmployeeController(
-         ISession session,
-         IContentItemDisplayManager contentItemDisplayManager,
-         IUpdateModelAccessor updateModelAccessor)
+       ISession session,
+       IContentManager contentManager,
+       IContentItemDisplayManager contentItemDisplayManager,
+       IUpdateModelAccessor updateModelAccessor,
+       IContentDefinitionManager contentDefinitionManager,
+
+       IDisplayManager<EmployeeFilter> employeeDisplayManager)
     {
         _session = session;
+        _contentManager = contentManager;
         _contentItemDisplayManager = contentItemDisplayManager;
         _updateModelAccessor = updateModelAccessor;
+        _contentDefinitionManager = contentDefinitionManager;
+
+        _employeeFilterDisplayManager = employeeDisplayManager;
     }
 
-    [HttpGet]
     [Route("Employees")]
-    public async Task<IActionResult> FilteredEmployees(string EmployeeFilter = null)
+    public async Task<IActionResult> FilteredEmployees()
     {
-        // get the list of employees by countries
-        var countryList = await EmployeeCountries();
-        var countryOptions = countryList.Select(c => new SelectListItem { Value = c, Text = c }).ToList();
+        var filters = new EmployeeFilter();
 
-        // query for employees, optionally filtering by country
-        var employeeQuery = _session.Query<ContentItem, EmployeePartIndex>();
-        if (!string.IsNullOrEmpty(EmployeeFilter))
+        var model = new EmployeeShapeViewModel()
         {
-            // find the employees by country
-            employeeQuery = employeeQuery.Where(x => x.Country == EmployeeFilter);
+            Filters = await _employeeFilterDisplayManager.UpdateEditorAsync(filters, _updateModelAccessor.ModelUpdater, false, string.Empty, string.Empty),
+        };
+
+        var query = _session.Query<ContentItem>();
+
+        if (filters.Conditions.Count > 0)
+        {
+            query = query.All(filters.Conditions.ToArray());
         }
 
-        // fetch the filtered Employees
-        var employees = await employeeQuery.ListAsync();
-        var employeeViewModels = new List<EmployeePartViewModel>();
-        foreach (var employee in employees)
+        query = query.With<ContentItemIndex>(x => x.ContentType == "Employee");
+
+        var contentItems = await query.ListAsync();
+
+        if (contentItems.Any())
         {
-            if (employee.TryGet<EmployeePart>(out var employeePart))
+            foreach (var contentItem in contentItems)
             {
-                // build the view model
-                var viewModel = new EmployeePartViewModel
-                {
-                    Shape = await _contentItemDisplayManager.BuildDisplayAsync(employee, _updateModelAccessor.ModelUpdater, "Summary"),
-                    ContentItemId = employee.ContentItemId,
-                };
-                employeeViewModels.Add(viewModel);
+                model.ContentItems.Add(await _contentItemDisplayManager.BuildDisplayAsync(contentItem, _updateModelAccessor.ModelUpdater, "Summary"));
             }
         }
-
-        // build the view model
-        var listViewModel = new EmployeeListViewModel
-        {
-            Employees = employeeViewModels,
-            SelectedEmployee = EmployeeFilter,
-            CountryOptions = countryOptions
-        };
-        return View(listViewModel);
-    }
-
-    [HttpGet]
-    public async Task<List<string>> EmployeeCountries()
-    {
-        // get the list of countries
-        var countryList = await _session.Query<ContentItem, EmployeePartIndex>().ListAsync();
-        var countryLocations = countryList.Select(x => x.As<EmployeePart>().Country)
-            .Distinct()
-            .OrderBy(x => x)
-            .ToList();
-
-        return countryLocations;
+        return View(model);
     }
 }
 

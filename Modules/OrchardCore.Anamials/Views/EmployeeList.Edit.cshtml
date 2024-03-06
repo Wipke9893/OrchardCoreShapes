@@ -1,0 +1,11 @@
+@using OrchardCore.GreenHouse.ViewModels
+
+@model EmployeeListViewModel
+
+<div class="mb-3">
+    <label asp-for="SelectedEmployee">Filter Employees by Country:</label>
+    <select asp-for="SelectedEmployee" class="form-control" asp-items="Model.CountryOptions">
+        <option value="">All Employees</option>
+    </select>
+    <div>EmployeeList.Edit.cshtml this is the dropdown box done by the Displaydriver EmployeeList  </div>
+</div>

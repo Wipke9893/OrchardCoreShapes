@@ -1,0 +1,14 @@
+@model OrchardCore.GreenHouse.ViewModels.ReviewShapeViewModel
+
+<h1>All Reviews</h1>
+
+<table class="table table-striped">
+    <tbody>
+        @foreach (var contentItemShape in Model.ContentItems)
+        {
+            @await DisplayAsync(contentItemShape)
+        }
+    </tbody>
+</table>
+
+<!-- Views/Review/FilteredReviews.cshtml -->

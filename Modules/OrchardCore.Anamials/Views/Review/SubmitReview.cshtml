@@ -1,0 +1,31 @@
+@model OrchardCore.GreenHouse.ViewModels.ReviewPartViewModel
+
+<form asp-action="SubmitReview" asp-action="SubmitReview" asp-controller="Review" method="post">
+    <fieldset class="form-group">
+        <label asp-for="Name">@T["Name"]</label>
+        <input asp-for="Name" class="form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </fieldset>
+
+    <fieldset class="form-group">
+        <label asp-for="Email">@T["Email"]</label>
+        <input asp-for="Email" class="form-control" />
+        <span asp-validation-for="Email" class="text-danger"></span>
+    </fieldset>
+
+    <fieldset class="form-group">
+        <label asp-for="Review">@T["Review"]</label>
+        <textarea asp-for="Review" class="form-control"></textarea>
+        <span asp-validation-for="Review" class="text-danger"></span>
+    </fieldset>
+
+    <fieldset class="form-group">
+        <label asp-for="Rating">@T["Rating 1-5"]</label>
+        <input asp-for="Rating" class="form-control" type="number" min="1" max="5" />
+        <span asp-validation-for="Rating" class="text-danger"></span>
+    </fieldset>
+
+    <button type="submit" class="btn btn-primary">Submit Review</button>
+</form>
+
+      @*   Views/Review/SubmitReview *@

@@ -1,9 +1,3 @@
-
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using OrchardCore.ContentManagement;
 using OrchardCore.DisplayManagement.Handlers;
@@ -28,15 +22,19 @@ public class TypeFlowerFilterDisplayDriver : DisplayDriver<FlowerFilter>
     public override IDisplayResult Edit(FlowerFilter model)
     {
         return Initialize<TypeFlowerFilterViewModel>("TypeFlowerFilter_Edit", async m =>
-        {
-            var flowerTypes = await _session.Query<ContentItem, FlowerPartIndex>().ListAsync();
+           {
+               var flowerTypesQuery = _session.Query<ContentItem, FlowerPartIndex>();
+               //Mikes Code
+               var flowerTypes = await _session.Query<ContentItem, FlowerPartIndex>().ListAsync();
 
-            m.Types = flowerTypes.Select(x => x.As<FlowerPart>().FlowerType)
-                .Distinct()
-                .Select(x => new SelectListItem(x, x))
-                .ToList();
-        }).Location("Body:5");
+               m.Types = flowerTypes.Select(x => x.As<FlowerPart>().FlowerType)
+                   .Distinct()
+                   .Select(x => new SelectListItem(x, x))
+                   .ToList();
+           }).Location("Body:5");
     }
+
+
 
     public override async Task<IDisplayResult> UpdateAsync(FlowerFilter model, IUpdateModel updater)
     {
@@ -48,5 +46,6 @@ public class TypeFlowerFilterDisplayDriver : DisplayDriver<FlowerFilter>
         }
 
         return Edit(model);
+
     }
 }

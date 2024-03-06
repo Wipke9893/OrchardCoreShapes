@@ -4,18 +4,22 @@
     {
         <div class="card-header">
             @await DisplayAsync(Model.Header)
+            <div>FlowerFilter.Edit.cshtml header </div>
         </div>
     }
 
     <div class="card-body">
         @await DisplayAsync(Model.Body)
+        <div>FlowerFilter.Edit.cshtml body </div>
     </div>
 
     @if (Model.Footer is not null)
     {
         <div class="card-footer">
             @await DisplayAsync(Model.Footer)
+            <div>FlowerFilter.Edit.cshtml footer </div>
         </div>
+        <div>FlowerFilter.Edit.cshtml footer </div>
     }
 
 </div>

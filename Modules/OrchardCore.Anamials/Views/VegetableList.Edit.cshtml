@@ -1,0 +1,11 @@
+@using OrchardCore.GreenHouse.ViewModels
+
+@model VegetableListViewModel
+
+<div class="mb-3">
+    <label asp-for="SelectedVegetable">Filter by Vegetable FruitType:</label>
+    <select asp-for="SelectedVegetable" class="form-control" asp-items="Model.FruitTypeOptions">
+        <option value="">All Vegetable Types</option>
+    </select>
+    <div>VegetableList.Edit.cshtml this is the dropdown box done by the Displaydriver VegetableList  </div>
+</div>

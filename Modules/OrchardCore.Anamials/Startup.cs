@@ -91,7 +91,6 @@ public class Startup : StartupBase
             .UseDisplayDriver<CarPartDisplayDriver>();
         // one service
         services.AddScoped<IDataMigration, CarPartMigrations>();
-
         //CarPart
 
         // FertilizerTeaPart
@@ -114,8 +113,8 @@ public class Startup : StartupBase
         //services that can be Universal
 
         services.AddScoped<IDisplayDriver<FlowerFilter>, TypeFlowerFilterDisplayDriver>();
-
-
+        services.AddScoped<IDisplayDriver<VegetableFilter>, VegetableListDisplayDriver>();
+        services.AddScoped<IDisplayDriver<EmployeeFilter>, EmployeeListDisplayDriver>();
     }
 }
 
@@ -126,5 +125,22 @@ public class StatusStartup : StartupBase
     public override void ConfigureServices(IServiceCollection services)
     {
         services.AddScoped<IDisplayDriver<FlowerFilter>, StatusFlowerFilterDisplayDriver>();
+    }
+}
+
+[Feature("OrchardCore.GreenHouse.Review")]
+public class ReviewStartup : StartupBase
+{
+    public override void ConfigureServices(IServiceCollection services)
+    {
+        // ReviewPart
+        services.AddDataMigration<ReviewPartMigrations>();
+        services.AddIndexProvider<ReviewPartIndexProvider>();
+        //one service
+        services.AddContentPart<ReviewPart>()
+            .UseDisplayDriver<ReviewPartDisplayDriver>();
+        // one service
+        services.AddScoped<IDataMigration, ReviewPartMigrations>();
+        // ReviewPart
     }
 }
