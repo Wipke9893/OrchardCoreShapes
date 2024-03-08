@@ -56,6 +56,14 @@ public class FlowersController : Controller
         {
             query = query.All(filters.Conditions.ToArray());
         }
+
+
+        // Query CustomObject query = query.With<Employee, EmployeeIndex>();
+        // CustomDisplayDriver : DisplayDriver<Employee>
+        // Employee.cshtml << will have predefine placeholders
+        // IDisplayManager<Employee> _employeeDisplayManager;
+        // Column1:1
+        // Column2:2
         // Further refine the query to only include ContentItems of ContentType "Flower".
         query = query.With<ContentItemIndex>(x => x.ContentType == "Flower");
 

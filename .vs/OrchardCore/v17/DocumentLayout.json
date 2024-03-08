@@ -1,18 +1,114 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\wipke\\workspace\\OrchardCoreShapes\\",
+  "WorkspaceRootPath": "C:\\Users\\jtelford\\WorkSpace\\OrchardCoreShapes\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FB54F127-2681-4A14-83C0-09E38246E7D9}|Modules\\OrchardCore.Anamials\\OrchardCore.GreenHouse.csproj|c:\\users\\wipke\\workspace\\orchardcoreshapes\\modules\\orchardcore.anamials\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{174B9256-D3F8-4886-9FE9-7F117ACD4E46}|Modules\\OrchardCore.Module.Training\\OrchardCore.Module.Training.csproj|c:\\users\\jtelford\\workspace\\orchardcoreshapes\\modules\\orchardcore.module.training\\permissions\\dogpagepermissions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{174B9256-D3F8-4886-9FE9-7F117ACD4E46}|Modules\\OrchardCore.Module.Training\\OrchardCore.Module.Training.csproj|solutionrelative:modules\\orchardcore.module.training\\permissions\\dogpagepermissions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB54F127-2681-4A14-83C0-09E38246E7D9}|Modules\\OrchardCore.Anamials\\OrchardCore.GreenHouse.csproj|c:\\users\\jtelford\\workspace\\orchardcoreshapes\\modules\\orchardcore.anamials\\views\\employee\\filteredemployees.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FB54F127-2681-4A14-83C0-09E38246E7D9}|Modules\\OrchardCore.Anamials\\OrchardCore.GreenHouse.csproj|solutionrelative:modules\\orchardcore.anamials\\views\\employee\\filteredemployees.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB54F127-2681-4A14-83C0-09E38246E7D9}|Modules\\OrchardCore.Anamials\\OrchardCore.GreenHouse.csproj|c:\\users\\jtelford\\workspace\\orchardcoreshapes\\modules\\orchardcore.anamials\\views\\employeeshape.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FB54F127-2681-4A14-83C0-09E38246E7D9}|Modules\\OrchardCore.Anamials\\OrchardCore.GreenHouse.csproj|solutionrelative:modules\\orchardcore.anamials\\views\\employeeshape.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB54F127-2681-4A14-83C0-09E38246E7D9}|Modules\\OrchardCore.Anamials\\OrchardCore.GreenHouse.csproj|c:\\users\\jtelford\\workspace\\orchardcoreshapes\\modules\\orchardcore.anamials\\views\\content-employee.summary.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FB54F127-2681-4A14-83C0-09E38246E7D9}|Modules\\OrchardCore.Anamials\\OrchardCore.GreenHouse.csproj|solutionrelative:modules\\orchardcore.anamials\\views\\content-employee.summary.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB54F127-2681-4A14-83C0-09E38246E7D9}|Modules\\OrchardCore.Anamials\\OrchardCore.GreenHouse.csproj|c:\\users\\jtelford\\workspace\\orchardcoreshapes\\modules\\orchardcore.anamials\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB54F127-2681-4A14-83C0-09E38246E7D9}|Modules\\OrchardCore.Anamials\\OrchardCore.GreenHouse.csproj|solutionrelative:modules\\orchardcore.anamials\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB54F127-2681-4A14-83C0-09E38246E7D9}|Modules\\OrchardCore.Anamials\\OrchardCore.GreenHouse.csproj|c:\\users\\jtelford\\workspace\\orchardcoreshapes\\modules\\orchardcore.anamials\\migrations\\reviewpartmigrations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB54F127-2681-4A14-83C0-09E38246E7D9}|Modules\\OrchardCore.Anamials\\OrchardCore.GreenHouse.csproj|solutionrelative:modules\\orchardcore.anamials\\migrations\\reviewpartmigrations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB54F127-2681-4A14-83C0-09E38246E7D9}|Modules\\OrchardCore.Anamials\\OrchardCore.GreenHouse.csproj|c:\\users\\jtelford\\workspace\\orchardcoreshapes\\modules\\orchardcore.anamials\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FB54F127-2681-4A14-83C0-09E38246E7D9}|Modules\\OrchardCore.Anamials\\OrchardCore.GreenHouse.csproj|solutionrelative:modules\\orchardcore.anamials\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FB54F127-2681-4A14-83C0-09E38246E7D9}|Modules\\OrchardCore.Anamials\\OrchardCore.GreenHouse.csproj|c:\\users\\wipke\\workspace\\orchardcoreshapes\\modules\\orchardcore.anamials\\views\\review\\submitreview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FB54F127-2681-4A14-83C0-09E38246E7D9}|Modules\\OrchardCore.Anamials\\OrchardCore.GreenHouse.csproj|solutionrelative:modules\\orchardcore.anamials\\views\\review\\submitreview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{FB54F127-2681-4A14-83C0-09E38246E7D9}|Modules\\OrchardCore.Anamials\\OrchardCore.GreenHouse.csproj|c:\\users\\jtelford\\workspace\\orchardcoreshapes\\modules\\orchardcore.anamials\\drivers\\employeelistdisplaydriver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB54F127-2681-4A14-83C0-09E38246E7D9}|Modules\\OrchardCore.Anamials\\OrchardCore.GreenHouse.csproj|solutionrelative:modules\\orchardcore.anamials\\drivers\\employeelistdisplaydriver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FB54F127-2681-4A14-83C0-09E38246E7D9}|Modules\\OrchardCore.Anamials\\OrchardCore.GreenHouse.csproj|c:\\users\\wipke\\workspace\\orchardcoreshapes\\modules\\orchardcore.anamials\\views\\review\\filteredreviews.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FB54F127-2681-4A14-83C0-09E38246E7D9}|Modules\\OrchardCore.Anamials\\OrchardCore.GreenHouse.csproj|solutionrelative:modules\\orchardcore.anamials\\views\\review\\filteredreviews.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{174B9256-D3F8-4886-9FE9-7F117ACD4E46}|Modules\\OrchardCore.Module.Training\\OrchardCore.Module.Training.csproj|c:\\users\\jtelford\\workspace\\orchardcoreshapes\\modules\\orchardcore.module.training\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{174B9256-D3F8-4886-9FE9-7F117ACD4E46}|Modules\\OrchardCore.Module.Training\\OrchardCore.Module.Training.csproj|solutionrelative:modules\\orchardcore.module.training\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{174B9256-D3F8-4886-9FE9-7F117ACD4E46}|Modules\\OrchardCore.Module.Training\\OrchardCore.Module.Training.csproj|c:\\users\\jtelford\\workspace\\orchardcoreshapes\\modules\\orchardcore.module.training\\controllers\\personlistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{174B9256-D3F8-4886-9FE9-7F117ACD4E46}|Modules\\OrchardCore.Module.Training\\OrchardCore.Module.Training.csproj|solutionrelative:modules\\orchardcore.module.training\\controllers\\personlistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{174B9256-D3F8-4886-9FE9-7F117ACD4E46}|Modules\\OrchardCore.Module.Training\\OrchardCore.Module.Training.csproj|c:\\users\\jtelford\\workspace\\orchardcoreshapes\\modules\\orchardcore.module.training\\views\\personpart.summaryadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{174B9256-D3F8-4886-9FE9-7F117ACD4E46}|Modules\\OrchardCore.Module.Training\\OrchardCore.Module.Training.csproj|solutionrelative:modules\\orchardcore.module.training\\views\\personpart.summaryadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{174B9256-D3F8-4886-9FE9-7F117ACD4E46}|Modules\\OrchardCore.Module.Training\\OrchardCore.Module.Training.csproj|c:\\users\\jtelford\\workspace\\orchardcoreshapes\\modules\\orchardcore.module.training\\views\\personpart.summary.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{174B9256-D3F8-4886-9FE9-7F117ACD4E46}|Modules\\OrchardCore.Module.Training\\OrchardCore.Module.Training.csproj|solutionrelative:modules\\orchardcore.module.training\\views\\personpart.summary.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{174B9256-D3F8-4886-9FE9-7F117ACD4E46}|Modules\\OrchardCore.Module.Training\\OrchardCore.Module.Training.csproj|c:\\users\\jtelford\\workspace\\orchardcoreshapes\\modules\\orchardcore.module.training\\views\\personpart.edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{174B9256-D3F8-4886-9FE9-7F117ACD4E46}|Modules\\OrchardCore.Module.Training\\OrchardCore.Module.Training.csproj|solutionrelative:modules\\orchardcore.module.training\\views\\personpart.edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{174B9256-D3F8-4886-9FE9-7F117ACD4E46}|Modules\\OrchardCore.Module.Training\\OrchardCore.Module.Training.csproj|c:\\users\\jtelford\\workspace\\orchardcoreshapes\\modules\\orchardcore.module.training\\views\\personpart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{174B9256-D3F8-4886-9FE9-7F117ACD4E46}|Modules\\OrchardCore.Module.Training\\OrchardCore.Module.Training.csproj|solutionrelative:modules\\orchardcore.module.training\\views\\personpart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{174B9256-D3F8-4886-9FE9-7F117ACD4E46}|Modules\\OrchardCore.Module.Training\\OrchardCore.Module.Training.csproj|c:\\users\\jtelford\\workspace\\orchardcoreshapes\\modules\\orchardcore.module.training\\drivers\\personpartdisplaydriver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{174B9256-D3F8-4886-9FE9-7F117ACD4E46}|Modules\\OrchardCore.Module.Training\\OrchardCore.Module.Training.csproj|solutionrelative:modules\\orchardcore.module.training\\drivers\\personpartdisplaydriver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{174B9256-D3F8-4886-9FE9-7F117ACD4E46}|Modules\\OrchardCore.Module.Training\\OrchardCore.Module.Training.csproj|c:\\users\\jtelford\\workspace\\orchardcoreshapes\\modules\\orchardcore.module.training\\migrations\\personmigrations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{174B9256-D3F8-4886-9FE9-7F117ACD4E46}|Modules\\OrchardCore.Module.Training\\OrchardCore.Module.Training.csproj|solutionrelative:modules\\orchardcore.module.training\\migrations\\personmigrations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB54F127-2681-4A14-83C0-09E38246E7D9}|Modules\\OrchardCore.Anamials\\OrchardCore.GreenHouse.csproj|c:\\users\\jtelford\\workspace\\orchardcoreshapes\\modules\\orchardcore.anamials\\services\\employeeadminlistfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB54F127-2681-4A14-83C0-09E38246E7D9}|Modules\\OrchardCore.Anamials\\OrchardCore.GreenHouse.csproj|solutionrelative:modules\\orchardcore.anamials\\services\\employeeadminlistfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB54F127-2681-4A14-83C0-09E38246E7D9}|Modules\\OrchardCore.Anamials\\OrchardCore.GreenHouse.csproj|c:\\users\\jtelford\\workspace\\orchardcoreshapes\\modules\\orchardcore.anamials\\navigation\\adminmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB54F127-2681-4A14-83C0-09E38246E7D9}|Modules\\OrchardCore.Anamials\\OrchardCore.GreenHouse.csproj|solutionrelative:modules\\orchardcore.anamials\\navigation\\adminmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB54F127-2681-4A14-83C0-09E38246E7D9}|Modules\\OrchardCore.Anamials\\OrchardCore.GreenHouse.csproj|c:\\users\\jtelford\\workspace\\orchardcoreshapes\\modules\\orchardcore.anamials\\handlers\\employeeparthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB54F127-2681-4A14-83C0-09E38246E7D9}|Modules\\OrchardCore.Anamials\\OrchardCore.GreenHouse.csproj|solutionrelative:modules\\orchardcore.anamials\\handlers\\employeeparthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB54F127-2681-4A14-83C0-09E38246E7D9}|Modules\\OrchardCore.Anamials\\OrchardCore.GreenHouse.csproj|c:\\users\\jtelford\\workspace\\orchardcoreshapes\\modules\\orchardcore.anamials\\views\\employeepart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FB54F127-2681-4A14-83C0-09E38246E7D9}|Modules\\OrchardCore.Anamials\\OrchardCore.GreenHouse.csproj|solutionrelative:modules\\orchardcore.anamials\\views\\employeepart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB54F127-2681-4A14-83C0-09E38246E7D9}|Modules\\OrchardCore.Anamials\\OrchardCore.GreenHouse.csproj|c:\\users\\jtelford\\workspace\\orchardcoreshapes\\modules\\orchardcore.anamials\\controllers\\flowerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB54F127-2681-4A14-83C0-09E38246E7D9}|Modules\\OrchardCore.Anamials\\OrchardCore.GreenHouse.csproj|solutionrelative:modules\\orchardcore.anamials\\controllers\\flowerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB54F127-2681-4A14-83C0-09E38246E7D9}|Modules\\OrchardCore.Anamials\\OrchardCore.GreenHouse.csproj|c:\\users\\jtelford\\workspace\\orchardcoreshapes\\modules\\orchardcore.anamials\\drivers\\employeepartdisplaydriver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB54F127-2681-4A14-83C0-09E38246E7D9}|Modules\\OrchardCore.Anamials\\OrchardCore.GreenHouse.csproj|solutionrelative:modules\\orchardcore.anamials\\drivers\\employeepartdisplaydriver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB54F127-2681-4A14-83C0-09E38246E7D9}|Modules\\OrchardCore.Anamials\\OrchardCore.GreenHouse.csproj|c:\\users\\jtelford\\workspace\\orchardcoreshapes\\modules\\orchardcore.anamials\\models\\employeepart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB54F127-2681-4A14-83C0-09E38246E7D9}|Modules\\OrchardCore.Anamials\\OrchardCore.GreenHouse.csproj|solutionrelative:modules\\orchardcore.anamials\\models\\employeepart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB54F127-2681-4A14-83C0-09E38246E7D9}|Modules\\OrchardCore.Anamials\\OrchardCore.GreenHouse.csproj|c:\\users\\jtelford\\workspace\\orchardcoreshapes\\modules\\orchardcore.anamials\\viewmodels\\employeepartviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB54F127-2681-4A14-83C0-09E38246E7D9}|Modules\\OrchardCore.Anamials\\OrchardCore.GreenHouse.csproj|solutionrelative:modules\\orchardcore.anamials\\viewmodels\\employeepartviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB54F127-2681-4A14-83C0-09E38246E7D9}|Modules\\OrchardCore.Anamials\\OrchardCore.GreenHouse.csproj|c:\\users\\jtelford\\workspace\\orchardcoreshapes\\modules\\orchardcore.anamials\\views\\employeefilter.edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FB54F127-2681-4A14-83C0-09E38246E7D9}|Modules\\OrchardCore.Anamials\\OrchardCore.GreenHouse.csproj|solutionrelative:modules\\orchardcore.anamials\\views\\employeefilter.edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB54F127-2681-4A14-83C0-09E38246E7D9}|Modules\\OrchardCore.Anamials\\OrchardCore.GreenHouse.csproj|c:\\users\\jtelford\\workspace\\orchardcoreshapes\\modules\\orchardcore.anamials\\views\\employeelist.edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FB54F127-2681-4A14-83C0-09E38246E7D9}|Modules\\OrchardCore.Anamials\\OrchardCore.GreenHouse.csproj|solutionrelative:modules\\orchardcore.anamials\\views\\employeelist.edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB54F127-2681-4A14-83C0-09E38246E7D9}|Modules\\OrchardCore.Anamials\\OrchardCore.GreenHouse.csproj|c:\\users\\jtelford\\workspace\\orchardcoreshapes\\modules\\orchardcore.anamials\\controllers\\flowercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB54F127-2681-4A14-83C0-09E38246E7D9}|Modules\\OrchardCore.Anamials\\OrchardCore.GreenHouse.csproj|solutionrelative:modules\\orchardcore.anamials\\controllers\\flowercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,41 +127,352 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Startup.cs",
-              "DocumentMoniker": "C:\\Users\\wipke\\workspace\\OrchardCoreShapes\\Modules\\OrchardCore.Anamials\\Startup.cs",
-              "RelativeDocumentMoniker": "Modules\\OrchardCore.Anamials\\Startup.cs",
-              "ToolTip": "C:\\Users\\wipke\\workspace\\OrchardCoreShapes\\Modules\\OrchardCore.Anamials\\Startup.cs",
-              "RelativeToolTip": "Modules\\OrchardCore.Anamials\\Startup.cs",
-              "ViewState": "AQIAAHAAAAAAAAAAAAAgwHwAAABHAAAA",
+              "Title": "DogPagePermissions.cs",
+              "DocumentMoniker": "C:\\Users\\jtelford\\WorkSpace\\OrchardCoreShapes\\Modules\\OrchardCore.Module.Training\\Permissions\\DogPagePermissions.cs",
+              "RelativeDocumentMoniker": "Modules\\OrchardCore.Module.Training\\Permissions\\DogPagePermissions.cs",
+              "ToolTip": "C:\\Users\\jtelford\\WorkSpace\\OrchardCoreShapes\\Modules\\OrchardCore.Module.Training\\Permissions\\DogPagePermissions.cs",
+              "RelativeToolTip": "Modules\\OrchardCore.Module.Training\\Permissions\\DogPagePermissions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-06T20:22:29.116Z",
+              "WhenOpened": "2024-03-08T17:04:08.72Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PersonPart.Summary.cshtml",
+              "DocumentMoniker": "C:\\Users\\jtelford\\WorkSpace\\OrchardCoreShapes\\Modules\\OrchardCore.Module.Training\\Views\\PersonPart.Summary.cshtml",
+              "RelativeDocumentMoniker": "Modules\\OrchardCore.Module.Training\\Views\\PersonPart.Summary.cshtml",
+              "ToolTip": "C:\\Users\\jtelford\\WorkSpace\\OrchardCoreShapes\\Modules\\OrchardCore.Module.Training\\Views\\PersonPart.Summary.cshtml",
+              "RelativeToolTip": "Modules\\OrchardCore.Module.Training\\Views\\PersonPart.Summary.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-08T17:48:43.481Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PersonPart.Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\jtelford\\WorkSpace\\OrchardCoreShapes\\Modules\\OrchardCore.Module.Training\\Views\\PersonPart.Edit.cshtml",
+              "RelativeDocumentMoniker": "Modules\\OrchardCore.Module.Training\\Views\\PersonPart.Edit.cshtml",
+              "ToolTip": "C:\\Users\\jtelford\\WorkSpace\\OrchardCoreShapes\\Modules\\OrchardCore.Module.Training\\Views\\PersonPart.Edit.cshtml",
+              "RelativeToolTip": "Modules\\OrchardCore.Module.Training\\Views\\PersonPart.Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-08T17:48:41.435Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "PersonPart.cshtml",
+              "DocumentMoniker": "C:\\Users\\jtelford\\WorkSpace\\OrchardCoreShapes\\Modules\\OrchardCore.Module.Training\\Views\\PersonPart.cshtml",
+              "RelativeDocumentMoniker": "Modules\\OrchardCore.Module.Training\\Views\\PersonPart.cshtml",
+              "ToolTip": "C:\\Users\\jtelford\\WorkSpace\\OrchardCoreShapes\\Modules\\OrchardCore.Module.Training\\Views\\PersonPart.cshtml",
+              "RelativeToolTip": "Modules\\OrchardCore.Module.Training\\Views\\PersonPart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-08T17:48:39.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "PersonPartDisplayDriver.cs",
+              "DocumentMoniker": "C:\\Users\\jtelford\\WorkSpace\\OrchardCoreShapes\\Modules\\OrchardCore.Module.Training\\Drivers\\PersonPartDisplayDriver.cs",
+              "RelativeDocumentMoniker": "Modules\\OrchardCore.Module.Training\\Drivers\\PersonPartDisplayDriver.cs",
+              "ToolTip": "C:\\Users\\jtelford\\WorkSpace\\OrchardCoreShapes\\Modules\\OrchardCore.Module.Training\\Drivers\\PersonPartDisplayDriver.cs",
+              "RelativeToolTip": "Modules\\OrchardCore.Module.Training\\Drivers\\PersonPartDisplayDriver.cs",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAowAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-08T17:45:53.561Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "C:\\Users\\jtelford\\WorkSpace\\OrchardCoreShapes\\Modules\\OrchardCore.Anamials\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "Modules\\OrchardCore.Anamials\\Controllers\\EmployeeController.cs",
+              "ToolTip": "C:\\Users\\jtelford\\WorkSpace\\OrchardCoreShapes\\Modules\\OrchardCore.Anamials\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "Modules\\OrchardCore.Anamials\\Controllers\\EmployeeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACgAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-07T20:32:58.247Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Content-Employee.Summary.cshtml",
+              "DocumentMoniker": "C:\\Users\\jtelford\\WorkSpace\\OrchardCoreShapes\\Modules\\OrchardCore.Anamials\\Views\\Content-Employee.Summary.cshtml",
+              "RelativeDocumentMoniker": "Modules\\OrchardCore.Anamials\\Views\\Content-Employee.Summary.cshtml",
+              "ToolTip": "C:\\Users\\jtelford\\WorkSpace\\OrchardCoreShapes\\Modules\\OrchardCore.Anamials\\Views\\Content-Employee.Summary.cshtml",
+              "RelativeToolTip": "Modules\\OrchardCore.Anamials\\Views\\Content-Employee.Summary.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-07T20:36:27.668Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "FilteredReviews.cshtml",
-              "DocumentMoniker": "C:\\Users\\wipke\\workspace\\OrchardCoreShapes\\Modules\\OrchardCore.Anamials\\Views\\Review\\FilteredReviews.cshtml",
-              "RelativeDocumentMoniker": "Modules\\OrchardCore.Anamials\\Views\\Review\\FilteredReviews.cshtml",
-              "ToolTip": "C:\\Users\\wipke\\workspace\\OrchardCoreShapes\\Modules\\OrchardCore.Anamials\\Views\\Review\\FilteredReviews.cshtml",
-              "RelativeToolTip": "Modules\\OrchardCore.Anamials\\Views\\Review\\FilteredReviews.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "EmployeeShape.cshtml",
+              "DocumentMoniker": "C:\\Users\\jtelford\\WorkSpace\\OrchardCoreShapes\\Modules\\OrchardCore.Anamials\\Views\\EmployeeShape.cshtml",
+              "RelativeDocumentMoniker": "Modules\\OrchardCore.Anamials\\Views\\EmployeeShape.cshtml",
+              "ToolTip": "C:\\Users\\jtelford\\WorkSpace\\OrchardCoreShapes\\Modules\\OrchardCore.Anamials\\Views\\EmployeeShape.cshtml",
+              "RelativeToolTip": "Modules\\OrchardCore.Anamials\\Views\\EmployeeShape.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-06T20:22:20.55Z",
+              "WhenOpened": "2024-03-07T20:32:16.354Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "SubmitReview.cshtml",
-              "DocumentMoniker": "C:\\Users\\wipke\\workspace\\OrchardCoreShapes\\Modules\\OrchardCore.Anamials\\Views\\Review\\SubmitReview.cshtml",
-              "RelativeDocumentMoniker": "Modules\\OrchardCore.Anamials\\Views\\Review\\SubmitReview.cshtml",
-              "ToolTip": "C:\\Users\\wipke\\workspace\\OrchardCoreShapes\\Modules\\OrchardCore.Anamials\\Views\\Review\\SubmitReview.cshtml",
-              "RelativeToolTip": "Modules\\OrchardCore.Anamials\\Views\\Review\\SubmitReview.cshtml",
+              "Title": "FilteredEmployees.cshtml",
+              "DocumentMoniker": "C:\\Users\\jtelford\\WorkSpace\\OrchardCoreShapes\\Modules\\OrchardCore.Anamials\\Views\\Employee\\FilteredEmployees.cshtml",
+              "RelativeDocumentMoniker": "Modules\\OrchardCore.Anamials\\Views\\Employee\\FilteredEmployees.cshtml",
+              "ToolTip": "C:\\Users\\jtelford\\WorkSpace\\OrchardCoreShapes\\Modules\\OrchardCore.Anamials\\Views\\Employee\\FilteredEmployees.cshtml",
+              "RelativeToolTip": "Modules\\OrchardCore.Anamials\\Views\\Employee\\FilteredEmployees.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-08T15:57:20.236Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PersonPart.SummaryAdmin.cshtml",
+              "DocumentMoniker": "C:\\Users\\jtelford\\WorkSpace\\OrchardCoreShapes\\Modules\\OrchardCore.Module.Training\\Views\\PersonPart.SummaryAdmin.cshtml",
+              "RelativeDocumentMoniker": "Modules\\OrchardCore.Module.Training\\Views\\PersonPart.SummaryAdmin.cshtml",
+              "ToolTip": "C:\\Users\\jtelford\\WorkSpace\\OrchardCoreShapes\\Modules\\OrchardCore.Module.Training\\Views\\PersonPart.SummaryAdmin.cshtml",
+              "RelativeToolTip": "Modules\\OrchardCore.Module.Training\\Views\\PersonPart.SummaryAdmin.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-06T20:21:26.525Z",
+              "WhenOpened": "2024-03-08T17:48:45.112Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Users\\jtelford\\WorkSpace\\OrchardCoreShapes\\Modules\\OrchardCore.Module.Training\\Startup.cs",
+              "RelativeDocumentMoniker": "Modules\\OrchardCore.Module.Training\\Startup.cs",
+              "ToolTip": "C:\\Users\\jtelford\\WorkSpace\\OrchardCoreShapes\\Modules\\OrchardCore.Module.Training\\Startup.cs",
+              "RelativeToolTip": "Modules\\OrchardCore.Module.Training\\Startup.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-08T17:48:48.839Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PersonListController.cs",
+              "DocumentMoniker": "C:\\Users\\jtelford\\WorkSpace\\OrchardCoreShapes\\Modules\\OrchardCore.Module.Training\\Controllers\\PersonListController.cs",
+              "RelativeDocumentMoniker": "Modules\\OrchardCore.Module.Training\\Controllers\\PersonListController.cs",
+              "ToolTip": "C:\\Users\\jtelford\\WorkSpace\\OrchardCoreShapes\\Modules\\OrchardCore.Module.Training\\Controllers\\PersonListController.cs",
+              "RelativeToolTip": "Modules\\OrchardCore.Module.Training\\Controllers\\PersonListController.cs",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAowAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-08T17:49:08.563Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ReviewPartMigrations.cs",
+              "DocumentMoniker": "C:\\Users\\jtelford\\WorkSpace\\OrchardCoreShapes\\Modules\\OrchardCore.Anamials\\Migrations\\ReviewPartMigrations.cs",
+              "RelativeDocumentMoniker": "Modules\\OrchardCore.Anamials\\Migrations\\ReviewPartMigrations.cs",
+              "ToolTip": "C:\\Users\\jtelford\\WorkSpace\\OrchardCoreShapes\\Modules\\OrchardCore.Anamials\\Migrations\\ReviewPartMigrations.cs",
+              "RelativeToolTip": "Modules\\OrchardCore.Anamials\\Migrations\\ReviewPartMigrations.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-08T17:04:08.744Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EmployeeListDisplayDriver.cs",
+              "DocumentMoniker": "C:\\Users\\jtelford\\WorkSpace\\OrchardCoreShapes\\Modules\\OrchardCore.Anamials\\Drivers\\EmployeeListDisplayDriver.cs",
+              "RelativeDocumentMoniker": "Modules\\OrchardCore.Anamials\\Drivers\\EmployeeListDisplayDriver.cs",
+              "ToolTip": "C:\\Users\\jtelford\\WorkSpace\\OrchardCoreShapes\\Modules\\OrchardCore.Anamials\\Drivers\\EmployeeListDisplayDriver.cs",
+              "RelativeToolTip": "Modules\\OrchardCore.Anamials\\Drivers\\EmployeeListDisplayDriver.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAIwCIAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-08T17:56:08.596Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "PersonMigrations.cs",
+              "DocumentMoniker": "C:\\Users\\jtelford\\WorkSpace\\OrchardCoreShapes\\Modules\\OrchardCore.Module.Training\\Migrations\\PersonMigrations.cs",
+              "RelativeDocumentMoniker": "Modules\\OrchardCore.Module.Training\\Migrations\\PersonMigrations.cs",
+              "ToolTip": "C:\\Users\\jtelford\\WorkSpace\\OrchardCoreShapes\\Modules\\OrchardCore.Module.Training\\Migrations\\PersonMigrations.cs",
+              "RelativeToolTip": "Modules\\OrchardCore.Module.Training\\Migrations\\PersonMigrations.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAowAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-08T17:45:08.043Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Users\\jtelford\\WorkSpace\\OrchardCoreShapes\\Modules\\OrchardCore.Anamials\\Startup.cs",
+              "RelativeDocumentMoniker": "Modules\\OrchardCore.Anamials\\Startup.cs",
+              "ToolTip": "C:\\Users\\jtelford\\WorkSpace\\OrchardCoreShapes\\Modules\\OrchardCore.Anamials\\Startup.cs",
+              "RelativeToolTip": "Modules\\OrchardCore.Anamials\\Startup.cs",
+              "ViewState": "AQIAAFgAAAAAAAAAAAAIwHIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-08T17:39:11.536Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "EmployeeAdminListFilter.cs",
+              "DocumentMoniker": "C:\\Users\\jtelford\\WorkSpace\\OrchardCoreShapes\\Modules\\OrchardCore.Anamials\\Services\\EmployeeAdminListFilter.cs",
+              "RelativeDocumentMoniker": "Modules\\OrchardCore.Anamials\\Services\\EmployeeAdminListFilter.cs",
+              "ToolTip": "C:\\Users\\jtelford\\WorkSpace\\OrchardCoreShapes\\Modules\\OrchardCore.Anamials\\Services\\EmployeeAdminListFilter.cs",
+              "RelativeToolTip": "Modules\\OrchardCore.Anamials\\Services\\EmployeeAdminListFilter.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-08T17:41:18.753Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AdminMenu.cs",
+              "DocumentMoniker": "C:\\Users\\jtelford\\WorkSpace\\OrchardCoreShapes\\Modules\\OrchardCore.Anamials\\Navigation\\AdminMenu.cs",
+              "RelativeDocumentMoniker": "Modules\\OrchardCore.Anamials\\Navigation\\AdminMenu.cs",
+              "ToolTip": "C:\\Users\\jtelford\\WorkSpace\\OrchardCoreShapes\\Modules\\OrchardCore.Anamials\\Navigation\\AdminMenu.cs",
+              "RelativeToolTip": "Modules\\OrchardCore.Anamials\\Navigation\\AdminMenu.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAABfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-08T17:40:47.73Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "EmployeePartHandler.cs",
+              "DocumentMoniker": "C:\\Users\\jtelford\\WorkSpace\\OrchardCoreShapes\\Modules\\OrchardCore.Anamials\\Handlers\\EmployeePartHandler.cs",
+              "RelativeDocumentMoniker": "Modules\\OrchardCore.Anamials\\Handlers\\EmployeePartHandler.cs",
+              "ToolTip": "C:\\Users\\jtelford\\WorkSpace\\OrchardCoreShapes\\Modules\\OrchardCore.Anamials\\Handlers\\EmployeePartHandler.cs",
+              "RelativeToolTip": "Modules\\OrchardCore.Anamials\\Handlers\\EmployeePartHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-08T17:38:08.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "EmployeePart.cshtml",
+              "DocumentMoniker": "C:\\Users\\jtelford\\WorkSpace\\OrchardCoreShapes\\Modules\\OrchardCore.Anamials\\Views\\EmployeePart.cshtml",
+              "RelativeDocumentMoniker": "Modules\\OrchardCore.Anamials\\Views\\EmployeePart.cshtml",
+              "ToolTip": "C:\\Users\\jtelford\\WorkSpace\\OrchardCoreShapes\\Modules\\OrchardCore.Anamials\\Views\\EmployeePart.cshtml",
+              "RelativeToolTip": "Modules\\OrchardCore.Anamials\\Views\\EmployeePart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-08T15:58:01.422Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "EmployeePart.cs",
+              "DocumentMoniker": "C:\\Users\\jtelford\\WorkSpace\\OrchardCoreShapes\\Modules\\OrchardCore.Anamials\\Models\\EmployeePart.cs",
+              "RelativeDocumentMoniker": "Modules\\OrchardCore.Anamials\\Models\\EmployeePart.cs",
+              "ToolTip": "C:\\Users\\jtelford\\WorkSpace\\OrchardCoreShapes\\Modules\\OrchardCore.Anamials\\Models\\EmployeePart.cs",
+              "RelativeToolTip": "Modules\\OrchardCore.Anamials\\Models\\EmployeePart.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-08T15:57:02.394Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "EmployeePartDisplayDriver.cs",
+              "DocumentMoniker": "C:\\Users\\jtelford\\WorkSpace\\OrchardCoreShapes\\Modules\\OrchardCore.Anamials\\Drivers\\EmployeePartDisplayDriver.cs",
+              "RelativeDocumentMoniker": "Modules\\OrchardCore.Anamials\\Drivers\\EmployeePartDisplayDriver.cs",
+              "ToolTip": "C:\\Users\\jtelford\\WorkSpace\\OrchardCoreShapes\\Modules\\OrchardCore.Anamials\\Drivers\\EmployeePartDisplayDriver.cs",
+              "RelativeToolTip": "Modules\\OrchardCore.Anamials\\Drivers\\EmployeePartDisplayDriver.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-07T20:40:37.207Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "FlowersController.cs",
+              "DocumentMoniker": "C:\\Users\\jtelford\\WorkSpace\\OrchardCoreShapes\\Modules\\OrchardCore.Anamials\\Controllers\\FlowersController.cs",
+              "RelativeDocumentMoniker": "Modules\\OrchardCore.Anamials\\Controllers\\FlowersController.cs",
+              "ToolTip": "C:\\Users\\jtelford\\WorkSpace\\OrchardCoreShapes\\Modules\\OrchardCore.Anamials\\Controllers\\FlowersController.cs",
+              "RelativeToolTip": "Modules\\OrchardCore.Anamials\\Controllers\\FlowersController.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAowA0AAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-07T21:09:17.433Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "EmployeePartViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\jtelford\\WorkSpace\\OrchardCoreShapes\\Modules\\OrchardCore.Anamials\\ViewModels\\EmployeePartViewModel.cs",
+              "RelativeDocumentMoniker": "Modules\\OrchardCore.Anamials\\ViewModels\\EmployeePartViewModel.cs",
+              "ToolTip": "C:\\Users\\jtelford\\WorkSpace\\OrchardCoreShapes\\Modules\\OrchardCore.Anamials\\ViewModels\\EmployeePartViewModel.cs",
+              "RelativeToolTip": "Modules\\OrchardCore.Anamials\\ViewModels\\EmployeePartViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-08T15:57:10.686Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "EmployeeFilter.Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\jtelford\\WorkSpace\\OrchardCoreShapes\\Modules\\OrchardCore.Anamials\\Views\\EmployeeFilter.Edit.cshtml",
+              "RelativeDocumentMoniker": "Modules\\OrchardCore.Anamials\\Views\\EmployeeFilter.Edit.cshtml",
+              "ToolTip": "C:\\Users\\jtelford\\WorkSpace\\OrchardCoreShapes\\Modules\\OrchardCore.Anamials\\Views\\EmployeeFilter.Edit.cshtml",
+              "RelativeToolTip": "Modules\\OrchardCore.Anamials\\Views\\EmployeeFilter.Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-08T15:58:40.24Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "EmployeeList.Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\jtelford\\WorkSpace\\OrchardCoreShapes\\Modules\\OrchardCore.Anamials\\Views\\EmployeeList.Edit.cshtml",
+              "RelativeDocumentMoniker": "Modules\\OrchardCore.Anamials\\Views\\EmployeeList.Edit.cshtml",
+              "ToolTip": "C:\\Users\\jtelford\\WorkSpace\\OrchardCoreShapes\\Modules\\OrchardCore.Anamials\\Views\\EmployeeList.Edit.cshtml",
+              "RelativeToolTip": "Modules\\OrchardCore.Anamials\\Views\\EmployeeList.Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-08T15:58:46.351Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "FlowerController.cs",
+              "DocumentMoniker": "C:\\Users\\jtelford\\WorkSpace\\OrchardCoreShapes\\Modules\\OrchardCore.Anamials\\Controllers\\FlowerController.cs",
+              "RelativeDocumentMoniker": "Modules\\OrchardCore.Anamials\\Controllers\\FlowerController.cs",
+              "ToolTip": "C:\\Users\\jtelford\\WorkSpace\\OrchardCoreShapes\\Modules\\OrchardCore.Anamials\\Controllers\\FlowerController.cs",
+              "RelativeToolTip": "Modules\\OrchardCore.Anamials\\Controllers\\FlowerController.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAgwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-07T21:09:00.003Z"
             }
           ]
         }

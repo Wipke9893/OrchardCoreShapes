@@ -23,14 +23,22 @@ public class EmployeeListDisplayDriver : DisplayDriver<EmployeeFilter>
     {
         return Initialize<EmployeeListViewModel>("EmployeeList_Edit", async m =>
         {
-            var employeeTypesQuery = _session.Query<ContentItem, EmployeePartIndex>();
+            /*     var employeeTypesQuery = _session.Query<ContentItem, EmployeePartIndex>();
 
-            var employeeCountry = await _session.Query<ContentItem, EmployeePartIndex>().ListAsync();
+                 var employeeCountry = await _session.Query<ContentItem, EmployeePartIndex>().ListAsync();
 
-            m.CountryOptions = employeeCountry.Select(x => x.As<EmployeePart>().Country)
-                .Distinct()
-                .Select(x => new SelectListItem(x, x))
-                .ToList();
+                 m.CountryOptions = employeeCountry.Select(x => x.As<EmployeePart>().Country)
+                     .Distinct()
+                     .Select(x => new SelectListItem(x, x))
+                     .ToList();
+            */
+            m.CountryOptions =
+               [
+               new SelectListItem { Text = "United States", Value = "United States" },
+                new SelectListItem { Text = "Canada", Value = "Canada" },
+                new SelectListItem { Text = "Mexico", Value = "Mexico" },
+             ];
+
         }).Location("Body:5");
     }
 

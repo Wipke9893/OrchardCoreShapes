@@ -19,14 +19,8 @@ public class AdminMenu : INavigationProvider
     public Task BuildNavigationAsync(string name, NavigationBuilder builder)
     {
         builder
-            .Add(_t["Vegetable"], "5", item => item
-                .Action("Vegetables", "Vegetable", new { area = "OrchardCore.GreenHouse" }))
             .Add(_t["Employees"], "6", item => item
             .Action("FilteredEmployees", "Employee", new { area = "OrchardCore.GreenHouse" }));
-
-
-        /*.Add(T["Flower"], "7", item => item
-        .Action("Flowers", "Flower", new { area = "OrchardCore.GreenHouse" }))*/
 
         return Task.CompletedTask;
     }

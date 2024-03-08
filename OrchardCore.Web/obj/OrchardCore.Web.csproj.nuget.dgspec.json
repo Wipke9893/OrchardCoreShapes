@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\wipke\\workspace\\OrchardCoreShapes\\OrchardCore.Web\\OrchardCore.Web.csproj": {}
+    "C:\\Users\\jtelford\\WorkSpace\\OrchardCoreShapes\\OrchardCore.Web\\OrchardCore.Web.csproj": {}
   },
   "projects": {
-    "C:\\Users\\wipke\\workspace\\OrchardCoreShapes\\Modules\\OrchardCore.Anamials\\OrchardCore.GreenHouse.csproj": {
+    "C:\\Users\\jtelford\\WorkSpace\\OrchardCoreShapes\\Modules\\OrchardCore.Anamials\\OrchardCore.GreenHouse.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\wipke\\workspace\\OrchardCoreShapes\\Modules\\OrchardCore.Anamials\\OrchardCore.GreenHouse.csproj",
+        "projectUniqueName": "C:\\Users\\jtelford\\WorkSpace\\OrchardCoreShapes\\Modules\\OrchardCore.Anamials\\OrchardCore.GreenHouse.csproj",
         "projectName": "OrchardCore.GreenHouse",
-        "projectPath": "C:\\Users\\wipke\\workspace\\OrchardCoreShapes\\Modules\\OrchardCore.Anamials\\OrchardCore.GreenHouse.csproj",
-        "packagesPath": "C:\\Users\\wipke\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\wipke\\workspace\\OrchardCoreShapes\\Modules\\OrchardCore.Anamials\\obj\\",
+        "projectPath": "C:\\Users\\jtelford\\WorkSpace\\OrchardCoreShapes\\Modules\\OrchardCore.Anamials\\OrchardCore.GreenHouse.csproj",
+        "packagesPath": "C:\\Users\\jtelford\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jtelford\\WorkSpace\\OrchardCoreShapes\\Modules\\OrchardCore.Anamials\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\wipke\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\jtelford\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -130,21 +125,17 @@
         }
       }
     },
-    "C:\\Users\\wipke\\workspace\\OrchardCoreShapes\\Modules\\OrchardCore.Module.Training\\OrchardCore.Module.Training.csproj": {
+    "C:\\Users\\jtelford\\WorkSpace\\OrchardCoreShapes\\Modules\\OrchardCore.Module.Training\\OrchardCore.Module.Training.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\wipke\\workspace\\OrchardCoreShapes\\Modules\\OrchardCore.Module.Training\\OrchardCore.Module.Training.csproj",
+        "projectUniqueName": "C:\\Users\\jtelford\\WorkSpace\\OrchardCoreShapes\\Modules\\OrchardCore.Module.Training\\OrchardCore.Module.Training.csproj",
         "projectName": "OrchardCore.Module.Training",
-        "projectPath": "C:\\Users\\wipke\\workspace\\OrchardCoreShapes\\Modules\\OrchardCore.Module.Training\\OrchardCore.Module.Training.csproj",
-        "packagesPath": "C:\\Users\\wipke\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\wipke\\workspace\\OrchardCoreShapes\\Modules\\OrchardCore.Module.Training\\obj\\",
+        "projectPath": "C:\\Users\\jtelford\\WorkSpace\\OrchardCoreShapes\\Modules\\OrchardCore.Module.Training\\OrchardCore.Module.Training.csproj",
+        "packagesPath": "C:\\Users\\jtelford\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jtelford\\WorkSpace\\OrchardCoreShapes\\Modules\\OrchardCore.Module.Training\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\wipke\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\jtelford\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -152,7 +143,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -244,21 +234,17 @@
         }
       }
     },
-    "C:\\Users\\wipke\\workspace\\OrchardCoreShapes\\OrchardCore.Web\\OrchardCore.Web.csproj": {
+    "C:\\Users\\jtelford\\WorkSpace\\OrchardCoreShapes\\OrchardCore.Web\\OrchardCore.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\wipke\\workspace\\OrchardCoreShapes\\OrchardCore.Web\\OrchardCore.Web.csproj",
+        "projectUniqueName": "C:\\Users\\jtelford\\WorkSpace\\OrchardCoreShapes\\OrchardCore.Web\\OrchardCore.Web.csproj",
         "projectName": "OrchardCore.Web",
-        "projectPath": "C:\\Users\\wipke\\workspace\\OrchardCoreShapes\\OrchardCore.Web\\OrchardCore.Web.csproj",
-        "packagesPath": "C:\\Users\\wipke\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\wipke\\workspace\\OrchardCoreShapes\\OrchardCore.Web\\obj\\",
+        "projectPath": "C:\\Users\\jtelford\\WorkSpace\\OrchardCoreShapes\\OrchardCore.Web\\OrchardCore.Web.csproj",
+        "packagesPath": "C:\\Users\\jtelford\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jtelford\\WorkSpace\\OrchardCoreShapes\\OrchardCore.Web\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\wipke\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\jtelford\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -266,18 +252,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\wipke\\workspace\\OrchardCoreShapes\\Modules\\OrchardCore.Anamials\\OrchardCore.GreenHouse.csproj": {
-                "projectPath": "C:\\Users\\wipke\\workspace\\OrchardCoreShapes\\Modules\\OrchardCore.Anamials\\OrchardCore.GreenHouse.csproj"
+              "C:\\Users\\jtelford\\WorkSpace\\OrchardCoreShapes\\Modules\\OrchardCore.Anamials\\OrchardCore.GreenHouse.csproj": {
+                "projectPath": "C:\\Users\\jtelford\\WorkSpace\\OrchardCoreShapes\\Modules\\OrchardCore.Anamials\\OrchardCore.GreenHouse.csproj"
               },
-              "C:\\Users\\wipke\\workspace\\OrchardCoreShapes\\Modules\\OrchardCore.Module.Training\\OrchardCore.Module.Training.csproj": {
-                "projectPath": "C:\\Users\\wipke\\workspace\\OrchardCoreShapes\\Modules\\OrchardCore.Module.Training\\OrchardCore.Module.Training.csproj"
+              "C:\\Users\\jtelford\\WorkSpace\\OrchardCoreShapes\\Modules\\OrchardCore.Module.Training\\OrchardCore.Module.Training.csproj": {
+                "projectPath": "C:\\Users\\jtelford\\WorkSpace\\OrchardCoreShapes\\Modules\\OrchardCore.Module.Training\\OrchardCore.Module.Training.csproj"
               }
             }
           }

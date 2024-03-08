@@ -9,5 +9,17 @@
     "TenantId": "454z9529ft76s54wv6c01242wq",
     "RequestUrlPrefix": "blog1",
     "State": "Running"
+  },
+  "JonesLakeManagement": {
+    "VersionId": "4meypzj8py648vfa6xcw1c2yw3",
+    "TenantId": "444kxwc25hknywdwp30m4kp255",
+    "RequestUrlPrefix": "Jones",
+    "State": "Running"
+  },
+  "chickenfarm": {
+    "VersionId": "4bhhhmet69e2axbbk40xcxf1c6",
+    "TenantId": "4gqzdfc01ew57vrvny51gnqqn2",
+    "RequestUrlPrefix": "ChickenFarm",
+    "State": "Running"
   }
 }

@@ -28,20 +28,7 @@ public class EmployeePartDisplayDriver : ContentPartDisplayDriver<EmployeePart>
                 new SelectListItem { Text = "United States", Value = "United States" },
                 new SelectListItem { Text = "Canada", Value = "Canada" },
                 new SelectListItem { Text = "Mexico", Value = "Mexico" },
-                new SelectListItem { Text = "United Kingdom", Value = "United Kingdom" },
-                new SelectListItem { Text = "Germany", Value = "Germany" },
-                new SelectListItem { Text = "France", Value = "France" },
-                new SelectListItem { Text = "Italy", Value = "Italy" },
-                new SelectListItem { Text = "Spain", Value = "Spain" },
-                new SelectListItem { Text = "Japan", Value = "Japan" },
-                new SelectListItem { Text = "China", Value = "China" },
-                new SelectListItem { Text = "India", Value = "India" },
-                new SelectListItem { Text = "Australia", Value = "Australia" },
-                new SelectListItem { Text = "Brazil", Value = "Brazil" },
-                new SelectListItem { Text = "South Africa", Value = "South Africa" },
-                new SelectListItem { Text = "Russia", Value = "Russia" },
-                new SelectListItem { Text = "Other", Value = "Other" },
-              ];
+           ];
        });
 
     public override async Task<IDisplayResult> UpdateAsync(EmployeePart part, IUpdateModel updater, UpdatePartEditorContext context)

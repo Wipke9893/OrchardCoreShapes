@@ -22,18 +22,6 @@ public class Startup : StartupBase
 {
     public override void ConfigureServices(IServiceCollection services)
     {
-        // VegetablePart
-        //this is all one service
-        services.AddContentPart<VegetablePart>()
-            .UseDisplayDriver<VegetablePartDisplayDriver>()
-        .AddHandler<VegetablePartHandler>();
-        //this is all one service
-        services.AddDataMigration<VegetableMigrations>();
-        services.AddIndexProvider<VegetablePartIndexProvider>();
-        services.AddScoped<IContentPartHandler, VegetablePartHandler>();
-        services.AddScoped<IContentPartDisplayDriver, VegetablePartDisplayDriver>();
-        // VegetablePart
-
         //FlowerPart
         //this is all one service
         services.AddContentPart<FlowerPart>()
@@ -108,13 +96,24 @@ public class Startup : StartupBase
 
         // AdminListFilter
         services.AddTransient<IContentsAdminListFilterProvider, EmployeeAdminListFilter>();
-        services.AddTransient<IContentsAdminListFilterProvider, VegetableAdminListFilter>();
         // AdminListFilter
         //services that can be Universal
 
         services.AddScoped<IDisplayDriver<FlowerFilter>, TypeFlowerFilterDisplayDriver>();
-        services.AddScoped<IDisplayDriver<VegetableFilter>, VegetableListDisplayDriver>();
         services.AddScoped<IDisplayDriver<EmployeeFilter>, EmployeeListDisplayDriver>();
+
+
+
+        services.AddDataMigration<ReviewPartMigrations>();
+        services.AddIndexProvider<ReviewPartIndexProvider>();
+        //one service
+        services.AddContentPart<ReviewPart>()
+            .UseDisplayDriver<ReviewPartDisplayDriver>();
+        // one service
+        services.AddScoped<IDataMigration, ReviewPartMigrations>();
+
+
+
     }
 }
 

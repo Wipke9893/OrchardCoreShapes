@@ -9885,24 +9885,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\wipke\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\jtelford\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\wipke\\workspace\\OrchardCoreShapes\\Modules\\OrchardCore.Module.Training\\OrchardCore.Module.Training.csproj",
+      "projectUniqueName": "C:\\Users\\jtelford\\WorkSpace\\OrchardCoreShapes\\Modules\\OrchardCore.Module.Training\\OrchardCore.Module.Training.csproj",
       "projectName": "OrchardCore.Module.Training",
-      "projectPath": "C:\\Users\\wipke\\workspace\\OrchardCoreShapes\\Modules\\OrchardCore.Module.Training\\OrchardCore.Module.Training.csproj",
-      "packagesPath": "C:\\Users\\wipke\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\wipke\\workspace\\OrchardCoreShapes\\Modules\\OrchardCore.Module.Training\\obj\\",
+      "projectPath": "C:\\Users\\jtelford\\WorkSpace\\OrchardCoreShapes\\Modules\\OrchardCore.Module.Training\\OrchardCore.Module.Training.csproj",
+      "packagesPath": "C:\\Users\\jtelford\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\jtelford\\WorkSpace\\OrchardCoreShapes\\Modules\\OrchardCore.Module.Training\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\wipke\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\jtelford\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -9910,7 +9905,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

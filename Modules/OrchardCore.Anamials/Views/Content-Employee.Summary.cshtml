@@ -2,26 +2,15 @@
 @using OrchardCore.GreenHouse.Models
 @{
     ContentItem contentItem = Model.ContentItem;
-
-    var employeePart = contentItem.As<EmployeePart>();
-    var CarPart = contentItem.As<CarPart>();
 }
 
 <tr>
     <td>
-        @contentItem.DisplayText
-        <strong>Content-employeePart.summary displayText </strong>
-        @CarPart.CarType
+        @await DisplayAsync(Model.Content)
     </td>
 
     <td>
-        <div class="email">
-            @employeePart.Email
-        </div>
-        <div>
-            @employeePart.FirstName @employeePart.LastName
-        </div>
-        <strong>Content-employeePart.summary.cshtml</strong>
+        @await DisplayAsync(Model.Content)
     </td>
 </tr>
 
@@ -30,3 +19,5 @@
         background-color: lightgray;
     }
 </style>
+
+@* Views/Content-Employee.Summary.cshtml *@

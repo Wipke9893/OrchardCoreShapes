@@ -59,13 +59,13 @@ public class EmployeeController : Controller
 
         var contentItems = await query.ListAsync();
 
-        if (contentItems.Any())
+        foreach (var contentItem in contentItems)
         {
-            foreach (var contentItem in contentItems)
-            {
-                model.ContentItems.Add(await _contentItemDisplayManager.BuildDisplayAsync(contentItem, _updateModelAccessor.ModelUpdater, "Summary"));
-            }
+            var employeeShape = await _contentItemDisplayManager.BuildDisplayAsync(contentItem, _updateModelAccessor.ModelUpdater, "Summary");
+
+            model.ContentItems.Add(employeeShape);
         }
+
         return View(model);
     }
 }

@@ -13,7 +13,7 @@
                 <button type="submit" class="btn btn-primary">@T["Filters"]</button>
             </div>
         </form>
-        <strong>FilteredEmployeesShape.cshtml</strong>
+        <p>FilteredEmployeesShape.cshtml</p>
     </div>
 }
 
@@ -23,10 +23,12 @@
         <tbody>
             @foreach (var contentItemShape in Model.ContentItems)
             {
+                // Content.Summary.cshtml
+                // Content-Employee.Summary.cshtml
                 @await DisplayAsync(contentItemShape)
             }
         </tbody>
-        <strong>FilteredEmployeesShape.cshtml</strong>
+        <p>FilteredEmployeesShape.cshtml</p>
     </table>
 }
 
@@ -38,3 +40,5 @@
         background-color: blue;
     }
 </style>
+
+@*     Views/EmployeeSHape.cshtml *@

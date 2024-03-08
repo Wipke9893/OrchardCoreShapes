@@ -12,57 +12,59 @@ using System;
 using System.Reflection;
 
 [assembly: OrchardCore.Modules.Manifest.ModuleMarkerAttribute("OrchardCore.Module.Training", "Module")]
-[assembly: OrchardCore.Modules.Manifest.ModuleAssetAttribute("Areas\\OrchardCore.Module.Training\\placement.json|C:\\Users\\wipke\\workspace\\Orchard" +
-    "CoreShapes\\Modules\\OrchardCore.Module.Training\\placement.json")]
-[assembly: OrchardCore.Modules.Manifest.ModuleAssetAttribute("Areas\\OrchardCore.Module.Training\\Views\\Admin\\EditDog.cshtml|C:\\Users\\wipke\\works" +
-    "pace\\OrchardCoreShapes\\Modules\\OrchardCore.Module.Training\\Views\\Admin\\EditDog.c" +
-    "shtml")]
-[assembly: OrchardCore.Modules.Manifest.ModuleAssetAttribute("Areas\\OrchardCore.Module.Training\\Views\\AnimalPart.cshtml|C:\\Users\\wipke\\workspac" +
-    "e\\OrchardCoreShapes\\Modules\\OrchardCore.Module.Training\\Views\\AnimalPart.cshtml")]
-[assembly: OrchardCore.Modules.Manifest.ModuleAssetAttribute("Areas\\OrchardCore.Module.Training\\Views\\AnimalPart.Edit.cshtml|C:\\Users\\wipke\\wor" +
-    "kspace\\OrchardCoreShapes\\Modules\\OrchardCore.Module.Training\\Views\\AnimalPart.Ed" +
-    "it.cshtml")]
-[assembly: OrchardCore.Modules.Manifest.ModuleAssetAttribute("Areas\\OrchardCore.Module.Training\\Views\\AnimalPart.Summary.cshtml|C:\\Users\\wipke\\" +
-    "workspace\\OrchardCoreShapes\\Modules\\OrchardCore.Module.Training\\Views\\AnimalPart" +
-    ".Summary.cshtml")]
-[assembly: OrchardCore.Modules.Manifest.ModuleAssetAttribute("Areas\\OrchardCore.Module.Training\\Views\\AnimalPart.SummaryAdmin.cshtml|C:\\Users\\w" +
-    "ipke\\workspace\\OrchardCoreShapes\\Modules\\OrchardCore.Module.Training\\Views\\Anima" +
-    "lPart.SummaryAdmin.cshtml")]
-[assembly: OrchardCore.Modules.Manifest.ModuleAssetAttribute("Areas\\OrchardCore.Module.Training\\Views\\DogPart.cshtml|C:\\Users\\wipke\\workspace\\O" +
-    "rchardCoreShapes\\Modules\\OrchardCore.Module.Training\\Views\\DogPart.cshtml")]
-[assembly: OrchardCore.Modules.Manifest.ModuleAssetAttribute("Areas\\OrchardCore.Module.Training\\Views\\DogPart.Edit.cshtml|C:\\Users\\wipke\\worksp" +
-    "ace\\OrchardCoreShapes\\Modules\\OrchardCore.Module.Training\\Views\\DogPart.Edit.csh" +
-    "tml")]
-[assembly: OrchardCore.Modules.Manifest.ModuleAssetAttribute("Areas\\OrchardCore.Module.Training\\Views\\DogPart.SummaryAdmin.cshtml|C:\\Users\\wipk" +
-    "e\\workspace\\OrchardCoreShapes\\Modules\\OrchardCore.Module.Training\\Views\\DogPart." +
-    "SummaryAdmin.cshtml")]
-[assembly: OrchardCore.Modules.Manifest.ModuleAssetAttribute("Areas\\OrchardCore.Module.Training\\Views\\Kennel\\AllDogs.cshtml|C:\\Users\\wipke\\work" +
-    "space\\OrchardCoreShapes\\Modules\\OrchardCore.Module.Training\\Views\\Kennel\\AllDogs" +
-    ".cshtml")]
-[assembly: OrchardCore.Modules.Manifest.ModuleAssetAttribute("Areas\\OrchardCore.Module.Training\\Views\\PersonList\\OlderThan30.cshtml|C:\\Users\\wi" +
-    "pke\\workspace\\OrchardCoreShapes\\Modules\\OrchardCore.Module.Training\\Views\\Person" +
-    "List\\OlderThan30.cshtml")]
-[assembly: OrchardCore.Modules.Manifest.ModuleAssetAttribute("Areas\\OrchardCore.Module.Training\\Views\\PersonPart.cshtml|C:\\Users\\wipke\\workspac" +
-    "e\\OrchardCoreShapes\\Modules\\OrchardCore.Module.Training\\Views\\PersonPart.cshtml")]
-[assembly: OrchardCore.Modules.Manifest.ModuleAssetAttribute("Areas\\OrchardCore.Module.Training\\Views\\PersonPart.Edit.cshtml|C:\\Users\\wipke\\wor" +
-    "kspace\\OrchardCoreShapes\\Modules\\OrchardCore.Module.Training\\Views\\PersonPart.Ed" +
-    "it.cshtml")]
-[assembly: OrchardCore.Modules.Manifest.ModuleAssetAttribute("Areas\\OrchardCore.Module.Training\\Views\\PersonPart.Summary.cshtml|C:\\Users\\wipke\\" +
-    "workspace\\OrchardCoreShapes\\Modules\\OrchardCore.Module.Training\\Views\\PersonPart" +
-    ".Summary.cshtml")]
-[assembly: OrchardCore.Modules.Manifest.ModuleAssetAttribute("Areas\\OrchardCore.Module.Training\\Views\\PersonPart.SummaryAdmin.cshtml|C:\\Users\\w" +
-    "ipke\\workspace\\OrchardCoreShapes\\Modules\\OrchardCore.Module.Training\\Views\\Perso" +
-    "nPart.SummaryAdmin.cshtml")]
-[assembly: OrchardCore.Modules.Manifest.ModuleAssetAttribute("Areas\\OrchardCore.Module.Training\\Views\\Zoo\\AllAnimals.cshtml|C:\\Users\\wipke\\work" +
-    "space\\OrchardCoreShapes\\Modules\\OrchardCore.Module.Training\\Views\\Zoo\\AllAnimals" +
-    ".cshtml")]
-[assembly: OrchardCore.Modules.Manifest.ModuleAssetAttribute("Areas\\OrchardCore.Module.Training\\Views\\_ViewImports.cshtml|C:\\Users\\wipke\\worksp" +
-    "ace\\OrchardCoreShapes\\Modules\\OrchardCore.Module.Training\\Views\\_ViewImports.csh" +
-    "tml")]
+[assembly: OrchardCore.Modules.Manifest.ModuleAssetAttribute("Areas\\OrchardCore.Module.Training\\placement.json|C:\\Users\\jtelford\\WorkSpace\\Orch" +
+    "ardCoreShapes\\Modules\\OrchardCore.Module.Training\\placement.json")]
+[assembly: OrchardCore.Modules.Manifest.ModuleAssetAttribute("Areas\\OrchardCore.Module.Training\\Views\\Admin\\EditDog.cshtml|C:\\Users\\jtelford\\Wo" +
+    "rkSpace\\OrchardCoreShapes\\Modules\\OrchardCore.Module.Training\\Views\\Admin\\EditDo" +
+    "g.cshtml")]
+[assembly: OrchardCore.Modules.Manifest.ModuleAssetAttribute("Areas\\OrchardCore.Module.Training\\Views\\AnimalPart.cshtml|C:\\Users\\jtelford\\WorkS" +
+    "pace\\OrchardCoreShapes\\Modules\\OrchardCore.Module.Training\\Views\\AnimalPart.csht" +
+    "ml")]
+[assembly: OrchardCore.Modules.Manifest.ModuleAssetAttribute("Areas\\OrchardCore.Module.Training\\Views\\AnimalPart.Edit.cshtml|C:\\Users\\jtelford\\" +
+    "WorkSpace\\OrchardCoreShapes\\Modules\\OrchardCore.Module.Training\\Views\\AnimalPart" +
+    ".Edit.cshtml")]
+[assembly: OrchardCore.Modules.Manifest.ModuleAssetAttribute("Areas\\OrchardCore.Module.Training\\Views\\AnimalPart.Summary.cshtml|C:\\Users\\jtelfo" +
+    "rd\\WorkSpace\\OrchardCoreShapes\\Modules\\OrchardCore.Module.Training\\Views\\AnimalP" +
+    "art.Summary.cshtml")]
+[assembly: OrchardCore.Modules.Manifest.ModuleAssetAttribute("Areas\\OrchardCore.Module.Training\\Views\\AnimalPart.SummaryAdmin.cshtml|C:\\Users\\j" +
+    "telford\\WorkSpace\\OrchardCoreShapes\\Modules\\OrchardCore.Module.Training\\Views\\An" +
+    "imalPart.SummaryAdmin.cshtml")]
+[assembly: OrchardCore.Modules.Manifest.ModuleAssetAttribute("Areas\\OrchardCore.Module.Training\\Views\\DogPart.cshtml|C:\\Users\\jtelford\\WorkSpac" +
+    "e\\OrchardCoreShapes\\Modules\\OrchardCore.Module.Training\\Views\\DogPart.cshtml")]
+[assembly: OrchardCore.Modules.Manifest.ModuleAssetAttribute("Areas\\OrchardCore.Module.Training\\Views\\DogPart.Edit.cshtml|C:\\Users\\jtelford\\Wor" +
+    "kSpace\\OrchardCoreShapes\\Modules\\OrchardCore.Module.Training\\Views\\DogPart.Edit." +
+    "cshtml")]
+[assembly: OrchardCore.Modules.Manifest.ModuleAssetAttribute("Areas\\OrchardCore.Module.Training\\Views\\DogPart.SummaryAdmin.cshtml|C:\\Users\\jtel" +
+    "ford\\WorkSpace\\OrchardCoreShapes\\Modules\\OrchardCore.Module.Training\\Views\\DogPa" +
+    "rt.SummaryAdmin.cshtml")]
+[assembly: OrchardCore.Modules.Manifest.ModuleAssetAttribute("Areas\\OrchardCore.Module.Training\\Views\\Kennel\\AllDogs.cshtml|C:\\Users\\jtelford\\W" +
+    "orkSpace\\OrchardCoreShapes\\Modules\\OrchardCore.Module.Training\\Views\\Kennel\\AllD" +
+    "ogs.cshtml")]
+[assembly: OrchardCore.Modules.Manifest.ModuleAssetAttribute("Areas\\OrchardCore.Module.Training\\Views\\PersonList\\OlderThan30.cshtml|C:\\Users\\jt" +
+    "elford\\WorkSpace\\OrchardCoreShapes\\Modules\\OrchardCore.Module.Training\\Views\\Per" +
+    "sonList\\OlderThan30.cshtml")]
+[assembly: OrchardCore.Modules.Manifest.ModuleAssetAttribute("Areas\\OrchardCore.Module.Training\\Views\\PersonPart.cshtml|C:\\Users\\jtelford\\WorkS" +
+    "pace\\OrchardCoreShapes\\Modules\\OrchardCore.Module.Training\\Views\\PersonPart.csht" +
+    "ml")]
+[assembly: OrchardCore.Modules.Manifest.ModuleAssetAttribute("Areas\\OrchardCore.Module.Training\\Views\\PersonPart.Edit.cshtml|C:\\Users\\jtelford\\" +
+    "WorkSpace\\OrchardCoreShapes\\Modules\\OrchardCore.Module.Training\\Views\\PersonPart" +
+    ".Edit.cshtml")]
+[assembly: OrchardCore.Modules.Manifest.ModuleAssetAttribute("Areas\\OrchardCore.Module.Training\\Views\\PersonPart.Summary.cshtml|C:\\Users\\jtelfo" +
+    "rd\\WorkSpace\\OrchardCoreShapes\\Modules\\OrchardCore.Module.Training\\Views\\PersonP" +
+    "art.Summary.cshtml")]
+[assembly: OrchardCore.Modules.Manifest.ModuleAssetAttribute("Areas\\OrchardCore.Module.Training\\Views\\PersonPart.SummaryAdmin.cshtml|C:\\Users\\j" +
+    "telford\\WorkSpace\\OrchardCoreShapes\\Modules\\OrchardCore.Module.Training\\Views\\Pe" +
+    "rsonPart.SummaryAdmin.cshtml")]
+[assembly: OrchardCore.Modules.Manifest.ModuleAssetAttribute("Areas\\OrchardCore.Module.Training\\Views\\Zoo\\AllAnimals.cshtml|C:\\Users\\jtelford\\W" +
+    "orkSpace\\OrchardCoreShapes\\Modules\\OrchardCore.Module.Training\\Views\\Zoo\\AllAnim" +
+    "als.cshtml")]
+[assembly: OrchardCore.Modules.Manifest.ModuleAssetAttribute("Areas\\OrchardCore.Module.Training\\Views\\_ViewImports.cshtml|C:\\Users\\jtelford\\Wor" +
+    "kSpace\\OrchardCoreShapes\\Modules\\OrchardCore.Module.Training\\Views\\_ViewImports." +
+    "cshtml")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("OrchardCore.Module.Training")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+72a7acbc0bf5da09aea695452fc4ccc7711226f2")]
 [assembly: System.Reflection.AssemblyProductAttribute("OrchardCore.Module.Training")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OrchardCore.Module.Training")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

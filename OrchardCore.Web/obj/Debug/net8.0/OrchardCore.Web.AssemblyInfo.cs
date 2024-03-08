@@ -104,7 +104,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OrchardCore.Web")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5bc150f272321baed865ef856fae5c6d04c68b13")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+72a7acbc0bf5da09aea695452fc4ccc7711226f2")]
 [assembly: System.Reflection.AssemblyProductAttribute("OrchardCore.Web")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OrchardCore.Web")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

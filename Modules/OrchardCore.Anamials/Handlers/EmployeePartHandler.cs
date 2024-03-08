@@ -7,9 +7,9 @@ namespace OrchardCore.GreenHouse.Handlers;
 public class EmployeePartHandler : ContentPartHandler<EmployeePart>
 {
     private readonly INotifier _notifier;
-    private readonly IStringLocalizer<VegetablePartHandler> _t;
+    private readonly IStringLocalizer<EmployeePartHandler> _t;
 
-    public EmployeePartHandler(INotifier notifier, IStringLocalizer<VegetablePartHandler> localizer)
+    public EmployeePartHandler(INotifier notifier, IStringLocalizer<EmployeePartHandler> localizer)
     {
         _notifier = notifier;
         _t = localizer;
